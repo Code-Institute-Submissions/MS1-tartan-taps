@@ -1,1 +1,46 @@
+/*-----------Google Fonts-----------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500;600&display=swap');
+
+/*-----------Google Fonts Ends-------------*
+
+/*-----------Logo-----------*/
+
+.logo-abb {
+    font-family: "Cormorant SC", sans-serif;
+    margin:0;
+    color: #B09E80;
+    margin-top: 30px;
+}
+
+.logo-abb:before,
+.logo-abb:after {
+ background-color: #B09E80;
+ content: "";
+ display: inline-block;
+ height: 1.5px;
+ position: relative;
+ vertical-align: middle;
+ width: 75px;
+}
+.logo-abb:before {
+ right: 0.5em;
+ margin-left: -50%;
+}
+.logo-abb:after {
+ left: 0.5em;
+ margin-right: -50%;
+}
+
+.logo {
+    font-family: "Cormorant SC", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    color: #192537
+}
+
+.no-underline:hover {
+    text-decoration: none;
+}
+
+    
