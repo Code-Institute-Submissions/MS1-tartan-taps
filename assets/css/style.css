@@ -10,7 +10,7 @@
     font-family: "Cormorant SC", sans-serif;
     margin:0;
     color: #B09E80;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .logo-abb:before,
@@ -43,4 +43,35 @@
     text-decoration: none;
 }
 
-    
+/*----------Logo Ends-----------*/
+
+/*----------Navbar------------*/
+
+.menu {
+    font-family: "Cormorant SC", sans-serif;
+    font-size: 20px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #B09E80;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #B09E80;
+}
+
+.active {
+    border-bottom: 1px solid #B09E80;
+}
+
+.navbar-custom {
+    background-color: #192537;
+}
+
+
+
+
