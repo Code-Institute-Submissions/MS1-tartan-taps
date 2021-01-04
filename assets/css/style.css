@@ -92,20 +92,43 @@
 
 .jumbotron h1,h2 {
     font-family: "Cormorant SC", sans-serif;
-    color: #192537;
+    color: #B09E80;
+}
+
+
+
+.lead {
+    font-family: "Roboto", sans-serif;
+    color: #B09E80
 }
 
 .jumbotron {
     background-color: transparent;
+    padding: 0;
 }
 
 .hero-image {
     height:100vh;
-    background: url('..images/beer-tap-background.jpg') no-repeat center center fixed; 
+    background: url('../images/beer-tap-background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
 }
 
 

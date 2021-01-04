@@ -90,17 +90,20 @@
     </header>
 
     <section> 
-        <div class="container-fluid mt-4 hero-image">
-            <div class="shadow p-3 mb-5 bg-white rounded">
-            <div class="jumbotron text-center">
-                <h2>New Year, New Beer!</h2>
-                <h1 class="display-4">Scottish Craft Beer Dropped At Your Door!</h1>
-                <p class="lead">Grab a mixed case of some of Scotlands best artisan and craft beers.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <button class="btn btn-md sign-up-button" data-toggle="modal" data-target="#signUpModal" role="button">Sign Up</button>
-                <p class="text-black-50"><small>Subscibers must be at least 18 years of age. Keep calm and drink responsibly</small></p>
-            </div>
+        <div class="container-fluid hero-image"> 
+            <div class="opaque-overlay">&nbsp;</div>
+            <div class="row">
+                <div class="col-12">      
+                    <div class="jumbotron text-center">
+                        <h2>New Year, New Beer!</h2>
+                        <h1 class="display-4">Scottish Craft Beer Dropped At Your Door!</h1>
+                        <p class="lead">Grab a mixed case of some of Scotlands best artisan and craft beers.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                        <button class="btn btn-md sign-up-button" data-toggle="modal" data-target="#signUpModal" role="button">Sign Up</button>
+                        <p class="text-white-50"><small>Subscibers must be at least 18 years of age. Keep calm and drink responsibly</small></p>
+                    </div>  
+                </div>
             </div>
         </div>
 
@@ -143,7 +146,7 @@
                     
                 </ul>
             </div>
-            <div class="col-sm-4 footer-menu">
+            <div class="col-sm-4 d-none d-md-block footer-menu">
                 <h4 class="headings">Sign In/Sign Up</h4>
                     <a data-toggle="modal" data-target="#signUpModal">
                         <i class="fas fa-beer" id="beer-sign" aria-hidden="true"></i>
