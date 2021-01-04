@@ -48,6 +48,7 @@
     padding-left: 10px;
 }
 
+
 .headings-logo {
     font-family: "Cormorant SC", sans-serif;
     color: #B09E80;
@@ -84,6 +85,20 @@
 .navbar .navbar-toggler {
     border:0;
 }
+
+/*----------Navbar Ends------------*/
+
+/*----------Jumbotron----------*/
+
+.jumbotron h1,h2 {
+    font-family: "Cormorant SC", sans-serif;
+    color: #192537;
+}
+
+
+
+
+/*----------Jumbotron Ends-----------*/
 
 /*--------Footer--------*/
 
@@ -128,6 +143,7 @@ footer {
     background-color: #192537;
     color: #B09E80;
     font-family: "Cormorant SC", sans-serif;
+    margin-bottom: 10px;
 }
 
 .modal-header {
