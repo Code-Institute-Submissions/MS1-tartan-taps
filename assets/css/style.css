@@ -92,7 +92,7 @@
 }
 
 .social-links li a i {
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     color: #B09E80;
     
@@ -101,6 +101,11 @@
 footer {
     background-color: #192537;
     min-height: 100px
+}
+
+#beer-sign {
+    font-size: 20px;
+    color: #B09E80;
 }
 
 
