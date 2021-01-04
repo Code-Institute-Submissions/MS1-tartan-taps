@@ -97,7 +97,7 @@
 
 
 
-.lead {
+.lead, .jumbotron-text {
     font-family: "Roboto", sans-serif;
     color: #B09E80
 }
@@ -106,6 +106,7 @@
     background-color: transparent;
     padding: 0;
 }
+
 
 .hero-image {
     height:100vh;
