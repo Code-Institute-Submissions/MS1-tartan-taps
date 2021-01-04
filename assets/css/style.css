@@ -95,6 +95,19 @@
     color: #192537;
 }
 
+.jumbotron {
+    background-color: transparent;
+}
+
+.hero-image {
+    height:100vh;
+    background: url('..images/beer-tap-background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 
 
 
