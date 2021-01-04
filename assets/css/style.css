@@ -108,5 +108,28 @@ footer {
     color: #B09E80;
 }
 
+/*--------Modal--------*/
+
+.sign-up-button {
+    background-color: #192537;
+    color: #B09E80;
+    font-family: "Cormorant SC", sans-serif;
+}
+
+.modal-header {
+    color: #192537;
+    font-family:"Cormorant SC", sans-serif;
+    font-weight: 600;
+}
+
+.form-group label {
+    color: #192537;
+    font-family:"Cormorant SC", sans-serif;
+    font-weight: 600;
+}
+
+.form-group input {
+    font-family: "Roboto", sans-serif;
+}
 
 
