@@ -10,15 +10,51 @@
 </head>
 <body>
     <header>
-        <!-- Logo -->
+        <!-- Logo Row -->
         <div class="container-fluid">
             <div class="row no-gutters">
-                <div class="col">
+                <div class="col-sm-4 d-none d-md-block">
+                    <!-- Social Links Logo -->
+                    <ul class="list-inline social-links social-links-logo">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.twitter.com">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>  
+                </ul>
+                </div>
+                <!-- Logo -->
+                <div class="col-sm-4">
                     <a href="index.html" class="no-underline">
                         <h3 class="text-center logo-abb">TT</h3>
                         <h1 class="text-center logo">Tartan Taps</h1>
                     </a>
                 </div>
+                <!-- Sign In/Sign Up Logo Row -->
+                <div class="col-sm-4 d-none d-md-block text-right">
+                    <a data-toggle="modal" data-target="#signUpModal">
+                        <h4 class="headings-logo">Sign In/Sign Up</h4>
+                    </a>
+                </div> 
             </div>
         </div>
         <!-- Navbar -->
@@ -123,6 +159,10 @@
                         <div class="form-group">
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeat-password">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeat-password" placeholder="Repeat Password">
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">

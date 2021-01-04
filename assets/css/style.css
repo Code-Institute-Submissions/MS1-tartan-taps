@@ -43,6 +43,19 @@
     text-decoration: none;
 }
 
+.social-links-logo {
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.headings-logo {
+    font-family: "Cormorant SC", sans-serif;
+    color: #B09E80;
+    padding-top: 35px;
+    padding-right: 10px;
+}
+
+
 /*----------Logo Ends-----------*/
 
 /*----------Navbar------------*/
@@ -95,6 +108,7 @@
     font-size: 20px;
     text-align: center;
     color: #B09E80;
+    margin: 0;
     
 }
 
