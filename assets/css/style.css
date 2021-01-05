@@ -137,6 +137,33 @@
 
 /*----------Jumbotron Ends-----------*/
 
+/*----------home-page-cards----------*/
+
+.features {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.features-section {
+    background-color: #B09E80;
+}
+
+.card-body {
+    background-color: #192537;
+}
+
+.card-title {
+    color: #B09E80;
+    font-family: "Cormorant SC", sans-serif;
+    text-align: center;
+}
+
+.card-text {
+    color: #B09E80;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
 /*--------Footer--------*/
 
 .headings {
