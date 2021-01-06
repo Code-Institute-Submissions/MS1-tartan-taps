@@ -141,7 +141,13 @@
 
 .features {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding: 8px;
+    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    box-shadow: 10px 10px 5px #75664e;
 }
 
 .features-section {
@@ -155,13 +161,23 @@
 .card-title {
     color: #B09E80;
     font-family: "Cormorant SC", sans-serif;
-    text-align: center;
 }
 
 .card-text {
     color: #B09E80;
     font-family: "Roboto", sans-serif;
-    text-align: center;
+}
+
+.card-img-top {
+    width:100%;
+    height: auto;
+}
+
+.card-button {
+    background-color: #B09E80;
+    color: #192537;
+    font-family:"Cormorant SC", sans-serif;
+    border: none;
 }
 
 /*--------Footer--------*/
