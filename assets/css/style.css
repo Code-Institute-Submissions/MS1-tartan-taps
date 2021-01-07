@@ -4,6 +4,12 @@
 
 /*-----------Google Fonts Ends-------------*
 
+/*-----------Background color------------*/
+
+.content-background {
+    background-color: #B09E80;
+}
+
 /*-----------Logo-----------*/
 
 .logo-abb {
@@ -88,7 +94,7 @@
 
 /*----------Navbar Ends------------*/
 
-/*----------Jumbotron----------*/
+/*----------Home Jumbotron----------*/
 
 .jumbotron h1,h2 {
     font-family: "Cormorant SC", sans-serif;
@@ -135,7 +141,7 @@
 
 
 
-/*----------Jumbotron Ends-----------*/
+/*----------Home Jumbotron Ends-----------*/
 
 /*----------home-page-cards----------*/
 
@@ -150,9 +156,6 @@
     box-shadow: 10px 10px 5px #75664e;
 }
 
-.features-section {
-    background-color: #B09E80;
-}
 
 .card-body {
     background-color: #192537;
@@ -180,9 +183,31 @@
     border: none;
 }
 
-/*--------Footer--------*/
+
+/*----------home-page-cards-ends----------*/
+
+/*----------Customize Your Crate-----------*/
 
 .headings {
+    font-family: "Cormorant SC", sans-serif;
+    color: #192537;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-text {
+    color: #192537;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+
+
+/*--------Footer--------*/
+
+.footer-headings {
     font-family: "Cormorant SC", sans-serif;
     margin:0;
     color: #B09E80;
@@ -192,11 +217,12 @@
 
 .information {
     font-family: "Roboto", sans-serif;
-    color: #B09E80
+    color: #B09E80;
 }
 
 .footer-menu {
     text-align: center;
+    padding-top:10px;
 }
 
 .social-links li a i {
