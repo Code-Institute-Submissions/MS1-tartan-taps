@@ -94,7 +94,10 @@
             <div class="row">
                 <div class="col-12 text-center">
                     <h2 class="headings">Choose Your Crate!</h2>
-                    <p class="content-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae odio commodi sunt, aliquam repudiandae fugit delectus? Exercitationem, inventore ratione! Iste nostrum voluptatum harum laudantium asperiores. Provident adipisci quas reprehenderit repellat.</p>
+                    <p class="content-text">Whether you love to get your hands on new releases, or enjoy getting fresh beer every month, Tartan Taps has got your back.</p>
+                    <p class="content-text">Don't know what beer to try next? Let us handle it.</p>
+                    <p class="content-text" data-toggle="modal" data-target="#addInfoModal"><small>Click here for further information</small></p>
+                    
                 </div>
             </div>
             <div class="row">
@@ -119,40 +122,37 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="col">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                        </div>             
+            <form>
+                <div class="row">
+                     <div class="col">
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Case Size</label>
                             <select class="form-control" id="exampleFormControlSelect1">
-                            <option>6</option>
-                            <option>9</option>
-                            <option>12</option>
+                            <option>6 - £12.99</option>
+                            <option>9 - £19.99</option>
+                            <option>12 - £24.99</option>
                             </select>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                             <label class="form-check-label" for="exampleRadios1">
-                                Default radio
+                                Mixed Crate
                             </label>
-                            </div>
-                            <div class="form-check">
+                        </div>
+                        <div class="form-check">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
                             <label class="form-check-label" for="exampleRadios2">
-                                Second default radio
+                                Lagers, IPA's & Pale Ale
                             </label>
-                            </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                    </form>
+                        <div class="form-group add-info">
+                            <label for="exampleFormControlTextarea1">Additional Information</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            <button class="btn btn-md delivery-button" role="button">Delivery & Payment Details</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
 
     </section>
@@ -204,12 +204,12 @@
             </div>
         </div>
     </footer>
-    <!-- Modal from Bootstrap -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!-- Sign-Up Modal -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signIn" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Sign In / Sign Up</h5>
+                    <h5 class="modal-title" id="signIn">Sign In / Sign Up</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
@@ -239,6 +239,33 @@
             </div>
         </div>
     </div>
+
+    <!-- Additional Information Modal -->
+
+    
+<div class="modal fade" id="addInfoModal" tabindex="-1" role="dialog" aria-labelledby="addinfo" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="addinfo">We've got this!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="checked">
+            <li><span><i class="far fa-check-circle"></i></span> Latest Scottish Beers</li>
+            <li><span><i class="far fa-check-circle"></i></span> Choose 6, 9 or 12 beers</li>
+            <li><span><i class="far fa-check-circle"></i></span> Delivered to your door every month</li>
+            <li><span><i class="far fa-check-circle"></i></span> Free cancellation anytime</li>
+        </ul>
+        <p class="content-text">Seen a beer you like the look of? Leave a comment below and we'll do our best to include it in your order</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
