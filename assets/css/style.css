@@ -191,8 +191,8 @@
 .headings {
     font-family: "Cormorant SC", sans-serif;
     color: #192537;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content-text {
@@ -213,6 +213,30 @@
     font-family: "Cormorant SC", sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+/*--------Customise Your Crate ends---------*/
+
+/*--------Contact Us---------*/
+
+#iframe-map {
+    padding:8px;
+    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    border:none;
+}
+
+.faq-headings {
+    font-family: "Cormorant SC", sans-serif;
+    color: #192537;
+    padding-top: 20px;
+}
+
+.faq-questions {
+    padding-bottom: 10px;
+}
+
+.find-us {
+    padding-top: 30px;
 }
 
 

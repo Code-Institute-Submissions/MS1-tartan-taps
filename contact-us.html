@@ -90,73 +90,48 @@
     </header>
 
     <section class="content-background">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="headings">Choose Your Crate!</h2>
-                    <p class="content-text">Whether you love to get your hands on new releases, or enjoy getting fresh beer every month, Tartan Taps has got your back.</p>
-                    <p class="content-text">Don't know what beer to try next? Let us handle it.</p>
-                    <p class="content-text" data-toggle="modal" data-target="#addInfoModal"><small>Click here for further information</small></p>
-                    
+                <div class="col">
+                    <h2 class="faq-headings text-center">FAQ's</h2>
+                    <p class="context-text text-center"><small>Click on questions to see the answers.</small></p>
+                    <br>
+                    <details class="content-text text-center faq-questions">
+                        <summary><strong>How often do I receive a crate?</strong></summary>
+                        <p>A new crate will be sent every month.</p>
+                    </details>
+                    <details class="content-text text-center faq-questions">
+                        <summary><strong>How will I know when I receive my beer?</strong></summary>
+                        <p>We will email you in advance of every delivery to let you know you're beer is ready to 
+                            sent and what it contains.
+                        </p>
+                    </details>
+                    <details class="content-text text-center faq-questions">
+                        <summary><strong>Can I change the date my beer is delivered?</strong></summary>
+                        <p>Yes. You can contact us anytime to change the date of delivery, prior to the cut-off date stated in the advance email. </p>
+                    </details>
+                    <details class="content-text text-center faq-questions">
+                        <summary><strong>How much does delivery cost?</strong></summary>
+                        <p>Nothing. Delivery is included in the cost of your subscription</p>
+                    </details>
+                    <details class="content-text text-center faq-questions">
+                        <summary><strong>Are there any hidden fees or cancellation costs?</strong></summary>
+                        <p>No. There are no hidden fees, and no additional costs to pause or cancel your subscription</p>
+                    </details>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 features">
-                    <div class="card mx-auto text-center" style="width:18rem;">
-                        <img src="https://www.redh.co.uk/media/ale_vs_beer.png" class="card-img-top" alt="beers on counter">
-                        <div class="card-body">
-                            <h5 class="card-title">Mixed Crate</h5>
-                            <p class="card-text">From stouts to lagers, porters to IPA's. This crate is Brewtiful!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 features">
-                    <div class="card mx-auto text-center" style="width:18rem;">
-                        <img src="https://images.unsplash.com/photo-1441985969846-3e7c90531139?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="beers on counter">
-                        <div class="card-body">
-                            <h5 class="card-title">Lagers, IPA's & Pale Ale</h5>
-                            <p class="card-text">For the hop lovers. Exactly as it says on the tin. I'd tap that!</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <form>
-                <div class="row">
-                     <div class="col">
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect1">Case Size</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                            <option>6 - £12.99</option>
-                            <option>9 - £19.99</option>
-                            <option>12 - £24.99</option>
-                            </select>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                            <label class="form-check-label" for="exampleRadios1">
-                                Mixed Crate
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                            <label class="form-check-label" for="exampleRadios2">
-                                Lagers, IPA's & Pale Ale
-                            </label>
-                        </div>
-                        <div class="form-group add-info">
-                            <label for="exampleFormControlTextarea1">Additional Information</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            <button class="btn btn-md delivery-button" role="button">Delivery & Payment Details</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
-        </div>
 
+        </div>
     </section>
 
+    <section class="content-background find-us">
+        <div class="container-fluid">
+            <h2 class="headings text-center">Find Us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.4244997846085!2d-4.314658884629436!3d55.87265074021037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x488845c2a0cdaa37%3A0x9e26eab99eb389c8!2sWest%20End%20Retail%20Park%2C%20Crow%20Rd%2C%20Glasgow%20G11%207RY!5e0!3m2!1sen!2suk!4v1610184066074!5m2!1sen!2suk" width="100%" height="300" id="iframe-map">
+                <p>Your browser does not support iframes</p>
+            </iframe>
+        </div>
+    </section>
 
     <footer class="container-fluid">
         <div class="row">
@@ -204,12 +179,12 @@
             </div>
         </div>
     </footer>
-    <!-- Sign-Up Modal -->
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signIn" aria-hidden="true">
+    <!-- Modal from Bootstrap -->
+    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="signIn">Sign In / Sign Up</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Sign In / Sign Up</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                     </button>
@@ -239,33 +214,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Additional Information Modal -->
-
-    
-<div class="modal fade" id="addInfoModal" tabindex="-1" role="dialog" aria-labelledby="addinfo" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="addinfo">We've got this!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <ul class="checked">
-            <li><span><i class="far fa-check-circle"></i></span> Latest Scottish Beers</li>
-            <li><span><i class="far fa-check-circle"></i></span> Choose 6, 9 or 12 beers</li>
-            <li><span><i class="far fa-check-circle"></i></span> Delivered to your door every month</li>
-            <li><span><i class="far fa-check-circle"></i></span> Free cancellation anytime</li>
-        </ul>
-        <p class="content-text">Seen a beer you like the look of? Leave a comment below and we'll do our best to include it in your order</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
