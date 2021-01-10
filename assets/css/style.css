@@ -219,6 +219,21 @@
 
 /*--------Contact Us---------*/
 
+.contact-hero-image {
+    height:50vh;
+    background: url('../images/contact-hero-image.jpg') no-repeat center bottom; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+}
+
 #iframe-map {
     padding:8px;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
@@ -236,7 +251,7 @@
 }
 
 .find-us {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 
