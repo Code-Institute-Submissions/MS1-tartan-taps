@@ -234,6 +234,13 @@
     position:relative;
 }
 
+.image-headings {
+    font-family: "Cormorant SC", sans-serif;
+    color: #B09E80;
+    font-size: 50px;
+}
+
+
 #iframe-map {
     padding:8px;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
