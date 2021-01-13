@@ -227,6 +227,28 @@
   opacity: 1;
 }
 
+.beer-image-logo {
+    width: 30px;
+    height:30px;
+    object-fit: cover;
+
+}
+
+.beers-hero-image {
+    height:50vh;
+    background: url('../images/beer-hero-image.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position:relative;
+}
+
 /*----------beers---------*/
 
 /*----------breweries----------*/
