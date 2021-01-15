@@ -77,7 +77,8 @@
 }
 
 .menu li {
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -211,6 +212,7 @@
     object-fit:cover;
     padding: 8px;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    box-shadow: 10px 10px 5px #75664e;
     
 }
 
