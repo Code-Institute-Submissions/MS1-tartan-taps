@@ -14,6 +14,8 @@
     background-color: #dcd4c5;
 }
 
+/*-----------Background color ends------------*/
+
 /*-----------Logo-----------*/
 
 .logo-abb {
@@ -256,7 +258,7 @@
     position:relative;
 }
 
-/*----------beers---------*/
+/*----------beers ends---------*/
 
 /*----------breweries----------*/
 
@@ -369,6 +371,7 @@
     padding-top: 20px;
 }
 
+/*--------Contact Us ends---------*/
 
 
 /*--------Footer--------*/
@@ -409,6 +412,8 @@ footer {
     color: #B09E80;
 }
 
+/*--------footer ends---------*/
+
 /*--------Modal--------*/
 
 .sign-up-button {
@@ -437,5 +442,7 @@ footer {
 .checked {
     list-style: none;
 }
+
+/*--------Modal Ends---------*/
 
 
