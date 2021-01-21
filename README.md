@@ -27,4 +27,16 @@ In this section I have established user stories which will dictate the website f
         - The main colours used are Navy and Tan, which has been dictated by the Tartan Taps logo. Tartan will be used in a minimalist way to be in keeping with the company name. 
     - #### Typography
         - Cormorant SC will be used for headings and important information, in keeping with the company logo. Roboto will be utilised for the website content. Sans-serif will be used as a fallback, should there be an error with imported fonts. 
-        
+    - #### Imagery
+        - Utilising bootstraps Jumotron the home page hero image is designed to catch the user's attention. It has to be contemporary, striking, and directly related to what the company offers.
+
+- ### Wireframes
+    I have created wireframes using Balsamiq for desktop, tablet and mobile devices. 
+    - Home Page Wireframe - [View](assets/wireframes/home-page-wireframe.pdf)
+    - Beers Wireframe - [View](assets/wireframes/beer-wireframe.pdf)
+    - Breweries Wireframe - [View](assets/wireframes/breweries-wireframe.pdf)
+    - Customize Your Crate Wireframe - [View](assets/wireframes/crates-wireframe.pdf)
+    - Contact Us Wireframe - [View](assets/wireframes/contact-us-wireframe.pdf)
+    - Sign Up Modal Wireframe - [View](assets/wireframes/sign-up-modal-wireframe.pdf)
+    - Additional Information Wireframe - [View](assets/wireframes/additional-information-modal-wireframe.pdf) 
+ 
