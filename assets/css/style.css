@@ -14,6 +14,10 @@
     background-color: #dcd4c5;
 }
 
+.content-background-gradient {
+    background-image: linear-gradient(to bottom right, #fff, #B09E80);
+}
+
 /*-----------Background color ends------------*/
 
 /*-----------Logo-----------*/
@@ -154,6 +158,25 @@
 
 
 /*----------Home Jumbotron Ends-----------*/
+
+/*----------How it works-----------*/
+
+.how-it-works-container {
+    max-width: 300px;
+    margin: 30px;
+}
+
+.how-it-works-image {
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    padding: 8px;
+    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    border-radius: 50%;
+}
+
+
+/*----------How it works Ends-----------*/
 
 /*----------home-page-cards----------*/
 
