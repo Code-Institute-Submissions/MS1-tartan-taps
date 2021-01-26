@@ -159,6 +159,24 @@
 
 /*----------Home Jumbotron Ends-----------*/
 
+/*----------Customer Reviews-----------*/
+
+.customer-image-container {
+    max-width: 550px;
+    margin: 30px;
+}
+
+.customer-image {
+    width: 150px;
+    height: 150px;
+    object-fit:cover;
+    padding: 8px;
+    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    border-radius: 50%;
+}
+
+/*----------Cutomer Reviews End-----------*/
+
 /*----------How it works-----------*/
 
 .how-it-works-container {
