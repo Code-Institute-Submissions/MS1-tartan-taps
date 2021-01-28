@@ -107,6 +107,19 @@
     border-bottom: 1px solid #B09E80;
 }
 
+.dropdown-menu {
+    background-color: #B09E80;
+}
+
+.dropdown-item {
+    color:#192537;
+}
+
+.dropdown-item:hover {
+    color: #B09E80;
+    background-color: #192537;
+}
+
 /*----------Navbar Ends------------*/
 
 /*----------Home Jumbotron----------*/

@@ -72,9 +72,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="beers.html">Beers</a>
-                    </li> 
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Beers</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="beers.html">All Beers</a>
+                            <a class="dropdown-item" href="/beers.html#lagers-pilsners">Lagers & Pilsners</a>
+                            <a class="dropdown-item" href="/beers.html#ipa-ale">IPA's & Pale Ales</a>
+                            <a class="dropdown-item" href="/beers.html#stouts-porters">Stouts & Porters</a>
+                        </div>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="breweries.html">Breweries</a>
                     </li>
@@ -103,7 +109,7 @@
 
     <!-- Lagers & PIlsners -->
     <!-- beer image overlap taken from w3schools.com-->
-    <section class="content-background">
+    <section class="content-background" id="lagers-pilsners">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
@@ -226,7 +232,7 @@
     </section>
 
     <!-- IPA's & Pale Ales -->
-    <section class="content-background-light">
+    <section class="content-background-light" id="ipa-ale">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
@@ -376,7 +382,7 @@
     </section>
 
     <!-- Stouts & Porters -->
-    <section class="content-background">
+    <section class="content-background" id="stouts-porters">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
