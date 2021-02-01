@@ -53,13 +53,18 @@ I would then implement back end technologies (knowledge not yet gained).
 ## Structure
 - ### Design
     - #### Colour Scheme
-        - The main colours used are Navy and Tan, which has been dictated by the Tartan Taps logo. Tartan will be used in a minimalist way to be in keeping with the company name. 
+        - The main colours used are Navy and Tan, which has been dictated by the Tartan Taps logo. 
+        - Tartan will be used in a minimalist way to be in keeping with the company name. 
     - #### Typography
         - Cormorant SC will be used for headings and important information, in keeping with the company logo. Roboto will be utilised for the website content. Sans-serif will be used as a fallback, should there be an error with imported fonts. 
+        - The text will be consistent across all pages. Titles and heading will be centered, and as there is no large bodies of text content can also be centered. 
     - #### Imagery
         - Utilising bootstraps Jumbotron the home page hero image is designed to catch the user's attention. It has to be contemporary, striking, and directly related to what the company offers.
+        - Images must be of a high enough quality that as the images scale according to different devices they do not become pixalated.
 
 ## Skeleton
+Below you can find links to the initial draft of the wireframes I've created for each individual page, showing how I would like the page to be structured, and how responsive the website is to different devices.
+
 - ### Wireframes
     I have created wireframes using Balsamiq for desktop, tablet and mobile devices. 
     - Home Page Wireframe - [View](assets/wireframes/home-page-wireframe.pdf)
@@ -69,6 +74,12 @@ I would then implement back end technologies (knowledge not yet gained).
     - Contact Us Wireframe - [View](assets/wireframes/contact-us-wireframe.pdf)
     - Sign Up Modal Wireframe - [View](assets/wireframes/sign-up-modal-wireframe.pdf)
     - Additional Information Wireframe - [View](assets/wireframes/additional-information-modal-wireframe.pdf) 
+
+As the project has progressed there have been quite a few changes to what was originally laid out in the wireframes.
+These changes have been made to improve the aethetics and functionality of the website, based on feedback and my own opinion. 
+
+Looking back I definately feel my project would of benefited from further planning at the beginning on the project.
+Having only just learnt HTML & CSS, and with a willingness to begin coding, some aspects of project planning may have been overlooked.
 
 ## Surface
 - ### Features
