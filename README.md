@@ -233,6 +233,62 @@ Due to the nature of the website, I have relied heavily on the individual brewer
 All other content has been written by Christopher Goodfellow.
 
 ## Media
+Images taken from Unsplash
+- Home Page Jumbotron Image - [View](https://unsplash.com/photos/UTzBjrptXQo)
+- Beer page Hero Image - [View](https://unsplash.com/photos/BV5YkMpFlj4)
+- Breweries page Hero Image - [View](https://unsplash.com/photos/sVothhm7iRI)
+- Contact Us Hero Image - [View](https://unsplash.com/photos/Cdq3ziSoeGY)
+- Home page male reviewer - [View](https://unsplash.com/photos/MTZTGvDsHFY)
+- Home page female reviewer - [View](https://unsplash.com/photos/_H6wpor9mjs)
+- Home page how it works image 1 - [View](https://unsplash.com/photos/SpVHcbuKi6E)
+- Home page how it works image 3 - [View](https://unsplash.com/photos/UErWoQEoMrc)
+- Home page crates image - [View](https://unsplash.com/photos/N8TigfbRwyY)
+
+Due to the nature of the website, and beers / breweries being highly specific, images have been taken from various sources which can be seen below: 
+
+- Beers
+    - St Mungo Lager - [View]()
+    - Che Guava Radical Lager - [View]()
+    - 71 Lager - [View]()
+    - Stewarts Lager - [View]()
+    - Modern Helles - [View]()
+    - Fierce Pilsner - [View]()
+    - Alstadt Lager - [View]()
+    - Cromarty Lager - [View]()
+    - Hopo Lager - [View]()
+    - Saazi Ness - [View]()
+    - Peloton - [View]()
+    - Ceasar Augustus - [View]()
+    - Skye Gold - [View]()
+    - Northern Light - [View]()
+    - Arran Blonde - [View]()
+    - Light Ness - [View]()
+    - Easy Shift - [View]()
+    - Birds & Bees - [View]()
+    - Switch - [View]()
+    - GPA - [View]()
+    - Saligo Golden Ale - [View]()
+    - Spider Monkey - [View]()
+    - Hopocrisy - [View]()
+    - Hopo 6.2 IPA - [View]()
+    - Tin Man Tropical IPA - [View]()
+    - Left Coast IPA - [View]()
+    - Radical Road - [View]()
+    - Dark Ness - [View]()
+    - Skye Black - [View]()
+    - Black Rock Stout - [View]()
+    - Mexicake - [View]()
+    - Dark Island - [View]()
+    - Night Shift - [View]()
+    - Hibernator - [View]()
+    - Black Hop Down - [View]()
+    - Kelpie Seaweed Ale - [View]()
+    - Chew Chew - [View]()
+    - Affogato - [View]()
+    - Dark Days - [View]()
+- Brewery Logos
+    - 
+
 ## Acknowledgements
 
 
