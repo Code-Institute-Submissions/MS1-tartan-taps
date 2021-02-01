@@ -83,5 +83,64 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
 
 ## Surface
 - ### Features
+    - #### All pages
+        - Logo - Logo row will include social media links, a "Sign up / Sign In" modal, and the company logo. Social media links and modal will not display on smaller devices, and logo will also act as a link back to the home page.
+        - Navbar - Toggler to a hamburger menu on smaller devices. Current page will be identified by underlining the page link, and text will be coloured white when active. 
+        - Footer - Split into 3 sections - contact information, social media, and "Sign Up / Sign In" modal. Wireframes show sign up modal to not display on smaller devices, however this has been included in the project, so there is an option to sign up on all pages regardless of device size. Social media links to open in a new tab. 
+        - Differing fonts between headings and content, aids in making the page look less monotonous. Cormoant SC capitalisation of letters draws the attention of the user. 
+    - #### Home page
+        - Jumbotron - Striking image to draw the user's attention with information relating to company. The image will have a darker overlay to allow the text to stand out. 
+        - Reviews & How it works - Circular images used to add variety, and different background colour used to identify different sections. 
+        - Bootstrap Cards - Aid the user with navigation through visual images and brief descriptions. 
+    - #### Beers Page
+        - Dropdown option on the navbar allows the user to quickly move to different sections within beers page. Especially important when using smaller devices as a large amount of scrolling required without navigation to different sections. 
+        - Beer description overlay allows for a subtle user interaction, and removes the need for large amounts of text to be visible. 
+        - Differing background colours to help identify different sections. 
+        - Half page hero image ties in with the bootstrap cards seen on the home page. 
+    - #### Breweries Page
+        - Bootstrap Cards - Image of each brewery logo to tie in with the logos seen on the beer description overlay, and a brief description about each brewery, with a link to each brewery opening in a new tab. 
+        - Differing background colours to help identify different sections. 
+        - Half page hero image ties in with the bootstrap cards seen on the home page. 
+    - #### Customise Your Crate Page
+        - Further information modal allows user interactions and avoids large amounts of text. 
+        - Simple and concise form to entise the user. This is important as large forms which take time to complete can deter the user. 
+    - #### Contact Us Page
+        - FAQ's section with interactive dropdowns, helps to make the content appear smaller. 
+        - Simple contact us form allows the user to ask any questions not already covered by FAQ's. 
+        - Embedded Google Maps allows for futher interaction to see exactly where Tartan Taps is located. 
+
+# Technologies used
+
+## Languages used
+- HTML
+- CSS
+
+## Frameworks, Libraries & Programmes used
+- Bootstrap 4.3.1
+    - Used as a framework for styling and to make the website responsive.
+- jQuery
+    - Used with Bootstrap to make the project responsive.
+- Hover.css 
+    - Hover.css was used in the navbar and the navbar dropdown links when being hovered over. 
+- Google fonts
+    - Google Fonts was used to import the "Cormarant SC" and "Roboto" fonts used across the website.
+- Font Awesome
+    - Font awesome was used to obtain the social media icons, stars for review section, and the beer glass for the Sign Up / Sign In Modal in the footer. 
+- Google Developer Tools 
+    - Used as a method of fixing bugs, and testing the responsiveness on different devices. 
+- Github
+    - GitHub is used to store the projects code after being pushed from Git.
+- Git 
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+- Balsamiq
+    - Balsamiq was used to create the the wireframes, seen at the skeleton section, during the design process.
+
+# Testing 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+## Testing User Stories
+
+
+
  
  
