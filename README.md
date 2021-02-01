@@ -22,14 +22,44 @@ In this section I have established user stories which will dictate the website f
         3. As a Frequent User, I want to be able to cancel / pause my subscription at any point. 
         4. As a Frequent User, I want to be able to change the amount of beers I order each month. 
 
+## Scope
+
+Based on the strategy goals that have been established, I have decided to incorporate a phased approach prioritising the most important information to less feasible concepts. 
+This will allow me to manage my workload and build upon any feedback that I receive during the project. 
+
+To begin with the first phase would be to create a minimum viable product (MVP). 
+
+- ### Phase 1:
+    - A home page setting out what the website offers. 
+    - A beer page showcasing what beers are avaialble. 
+    - A breweries page to find out more information about each brewery. 
+    - A Customise your crates page. 
+    - A contact us page. 
+
+I would then build upon the MVP to further engage the user.   
+
+- ### Phase 2: 
+    - Include interactive elements to engage the user (JavaScript knowledge not yet gained)
+    - Include a further option that the customer may select their beers individually. 
+    - Create a Gift page, to allow users the option of a single purchase or gift subscription. 
+
+I would then implement back end technologies (knowledge not yet gained).
+
+- ### Phase 3:
+    - Add a delivery and payments page.
+
+
+
+## Structure
 - ### Design
     - #### Colour Scheme
         - The main colours used are Navy and Tan, which has been dictated by the Tartan Taps logo. Tartan will be used in a minimalist way to be in keeping with the company name. 
     - #### Typography
         - Cormorant SC will be used for headings and important information, in keeping with the company logo. Roboto will be utilised for the website content. Sans-serif will be used as a fallback, should there be an error with imported fonts. 
     - #### Imagery
-        - Utilising bootstraps Jumotron the home page hero image is designed to catch the user's attention. It has to be contemporary, striking, and directly related to what the company offers.
+        - Utilising bootstraps Jumbotron the home page hero image is designed to catch the user's attention. It has to be contemporary, striking, and directly related to what the company offers.
 
+## Skeleton
 - ### Wireframes
     I have created wireframes using Balsamiq for desktop, tablet and mobile devices. 
     - Home Page Wireframe - [View](assets/wireframes/home-page-wireframe.pdf)
@@ -39,4 +69,8 @@ In this section I have established user stories which will dictate the website f
     - Contact Us Wireframe - [View](assets/wireframes/contact-us-wireframe.pdf)
     - Sign Up Modal Wireframe - [View](assets/wireframes/sign-up-modal-wireframe.pdf)
     - Additional Information Wireframe - [View](assets/wireframes/additional-information-modal-wireframe.pdf) 
+
+## Surface
+- ### Features
+ 
  
