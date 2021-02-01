@@ -1,3 +1,39 @@
+<h1 align="center">Tartan Taps Website</h1>
+
+# Contents
+
+- [User Experience (UX)](#user-experience-(ux))
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Strucure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+- [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries & Programmes used](#frameworks-libraries-and-programmes-used)
+- [Testing](#testing)
+    - [W3C Validator](#w3c-validator)
+    - [Testing User Stories](#testing-user-stories)
+        - [Testing First Time Visitor Goals](#testing-first-time-visitor-goals)
+        - [Testing Returning Visitor Goals](#testing-returning-visitor-goals)
+        - [Testing Frequent User Goals](#testing-frequent-user-goals)
+    - [Full Testing](#full-testing)
+    - [Further Testing](#further-testing)
+    - [Solved Bugs](#solved-bugs)
+    - [Known Bugs](#known-bugs)
+- [Deployment](#deployment)
+    - [GitHub Pages](#github-pages)
+    - [Forking the GitHub Repository](#forking-the-github-repository)
+    - [Making a Local Clone](#making-a-local-clone)
+- [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
+
+
+
+
 # User Experience (UX)
 
 ## Strategy
@@ -115,7 +151,7 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
 - HTML
 - CSS
 
-## Frameworks, Libraries & Programmes used
+## Frameworks Libraries and Programmes used
 - Bootstrap 4.3.1
     - Used as a framework for styling and to make the website responsive.
 - jQuery
@@ -136,9 +172,68 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
     - Balsamiq was used to create the the wireframes, seen at the skeleton section, during the design process.
 
 # Testing 
+
+## W3C Validator
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ## Testing User Stories
+### Testing First Time Visitor Goals
+### Testing Returning Visitor Goals
+### Testing Frequent User Goals
+
+## Full Testing
+
+## Further Testing
+
+## Solved Bugs
+
+## Known Bugs
+
+
+# Deployment
+## Github pages
+## Forking the GitHub Repository
+## Making a Local Clone
+
+
+# Credits
+## Code
+- [Vclever](http://vclever.com/blog/how-to-style-a-heading-with-horizontal-lines-either-side-using-css/)
+    - Helping to find a solution to get lines either side of the TT on the logo.
+- [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) 
+    - Provided the code to create a content overlay for the beer images. 
+- [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
+    - Aided with background images for beers, breweries, and contact us pages.
+- [Matt Rudge, Code Institute](https://codeinstitute.net/)
+    - Jumbotron & Jumbotron styling
+    - Dark overlay which has been applied to jumbotron image and hero images.
+    - Social Media Icons in footer and logo row.
+- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+    - Bootstrap has been used throughout the project to make the site responsive using Bootstraps Grid system, and add components from their library.
+
+## Content
+Due to the nature of the website, I have relied heavily on the individual breweries for beer descriptions and brewery description / history. Some of the content has been edited for the needs of the website. 
+- [West Brewery](https://www.westbeer.com/)
+- [Williams Brothers](https://www.williamsbrosbrew.com/)
+- [Fallen Brewing Company](https://www.fallenbrewing.co.uk/)
+- [71 Brewing](https://www.71brewing.com/)
+- [Stewart Brewing](https://www.stewartbrewing.co.uk/)
+- [Fierce Beer](https://www.fiercebeer.com/)
+- [Loch Ness Brewery](https://www.lochnessbrewery.com/)
+- [Black Isle Brewing Company](https://www.blackislebrewery.com/)
+- [Cromarty Brewing Company](https://www.cromartybrewing.com/)
+- [Six Degrees North](https://www.sixdnorth.co.uk/)
+- [Isle Of Skye Brewing Company](https://skyeale.com/)
+- [The Orkney Brewery](https://www.orkneybrewery.co.uk/)
+- [Isle of Arran Brewery](https://www.arranbrewery.co.uk/)
+- [Islay Ales](https://www.islayales.com/)
+- [Tempest Brewing Company](https://www.tempestbrewco.com/)
+- [Broughton Ales](https://broughtonales.co.uk/)
+
+All other content has been written by Christopher Goodfellow.
+
+## Media
+## Acknowledgements
 
 
 
