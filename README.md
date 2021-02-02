@@ -178,21 +178,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Testing User Stories
 ### Testing First Time Visitor Goals
-1. As a First Time Visitor, I want to know at a glance the main purpose of Tartan Taps and what it can offer.
-2. As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
-3. As a First Time Visitor, I want to locate their Social Media accounts, to determine how trusted they are. 
-4. As a First Time Visitor, I want to see prices in order to determine whether this a suitable product for purchase.
+1. #### As a First Time Visitor, I want to know at a glance the main purpose of Tartan Taps and what it can offer.
+    - When entering the site the user is greeted with a large hero image utilising Bootstraps Jumbotron component, with a dark overlay making the text clearly visible, describing the purpose of the company.
+    - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. 
+2. #### As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
+    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages. The current page is highlighted by underlining each link, and the text is changed to white.
+    - The logo will take the user back to the home page when clicked. 
+    - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page in order to view another page.
+    - Dropdown option on beers page allowing the user to quickly manouvre to different section on that page.
+3. #### As a First Time Visitor, I want to locate their Social Media accounts, to determine how trusted they are.
+    - On larger devices only social media icons (Facebook, Twitter, Instagram, Youtube) can be located to the left hand side of the logo. 
+    - On all device sizes social media icons can be locted in the footer of the site. All links to social media accounts will open in a different tab, to ensure the user does not lose access to the website.
+4. #### As a First Time Visitor, I want to see prices in order to determine whether this a suitable product for purchase.
+    - The home page jumbotron shows a minimum price subscription, and a first month free message is visible in bold writing to entise the user. 
+    - Further pricing options are available on the customise your crate page using a dropdown form. 
 
 ### Testing Returning Visitor Goals
-1. As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
-2. As a Returning Visitor, I want to have options to get in contact with Tartan Taps, with any queries or questions I may have. 
-3. As a Returning Visitor, I want to see customer reviews.
+1. #### As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
+2. #### As a Returning Visitor, I want to have options to get in contact with Tartan Taps, with any queries or questions I may have. 
+3. #### As a Returning Visitor, I want to see customer reviews.
 
 ### Testing Frequent User Goals
-1. As a Frequent User, I want to see what beers are available and compare them against my delivery. 
-2. As a Frequent User, I want to find information about the breweries, from where the beers came. 
-3. As a Frequent User, I want to be able to cancel / pause my subscription at any point. 
-4. As a Frequent User, I want to be able to change the amount of beers I order each month.
+1. #### As a Frequent User, I want to see what beers are available and compare them against my delivery. 
+2. #### As a Frequent User, I want to find information about the breweries, from where the beers came. 
+3. #### As a Frequent User, I want to be able to cancel / pause my subscription at any point. 
+4. #### As a Frequent User, I want to be able to change the amount of beers I order each month.
 
 ## Full Testing
 
