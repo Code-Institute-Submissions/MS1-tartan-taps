@@ -178,8 +178,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Testing User Stories
 ### Testing First Time Visitor Goals
+1. As a First Time Visitor, I want to know at a glance the main purpose of Tartan Taps and what it can offer.
+2. As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
+3. As a First Time Visitor, I want to locate their Social Media accounts, to determine how trusted they are. 
+4. As a First Time Visitor, I want to see prices in order to determine whether this a suitable product for purchase.
+
 ### Testing Returning Visitor Goals
+1. As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
+2. As a Returning Visitor, I want to have options to get in contact with Tartan Taps, with any queries or questions I may have. 
+3. As a Returning Visitor, I want to see customer reviews.
+
 ### Testing Frequent User Goals
+1. As a Frequent User, I want to see what beers are available and compare them against my delivery. 
+2. As a Frequent User, I want to find information about the breweries, from where the beers came. 
+3. As a Frequent User, I want to be able to cancel / pause my subscription at any point. 
+4. As a Frequent User, I want to be able to change the amount of beers I order each month.
 
 ## Full Testing
 
@@ -210,6 +223,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Social Media Icons in footer and logo row.
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
     - Bootstrap has been used throughout the project to make the site responsive using Bootstraps Grid system, and add components from their library.
+- [Fontawesome](https://fontawesome.com/icons?d=gallery)
+    - Fontawesome has been utilised for social media icons, reviews stars, and the beer glass sign up / sign in modal.
 
 ## Content
 Due to the nature of the website, I have relied heavily on the individual breweries for beer descriptions and brewery description / history. Some of the content has been edited for the needs of the website. 
@@ -243,6 +258,7 @@ Images taken from Unsplash
 - Home page how it works image 1 - [View](https://unsplash.com/photos/SpVHcbuKi6E)
 - Home page how it works image 3 - [View](https://unsplash.com/photos/UErWoQEoMrc)
 - Home page crates image - [View](https://unsplash.com/photos/N8TigfbRwyY)
+- Lagers / IPA's - Customise your crate page - [View](https://unsplash.com/photos/NmvMhov1sYc)
 
 Due to the nature of the website, and beers / breweries being highly specific, images have been taken from various sources which can be seen below: 
 
@@ -303,8 +319,18 @@ Due to the nature of the website, and beers / breweries being highly specific, i
     - Islay Ales - [View](https://twitter.com/islayales)
     - Tempest Brewing Company - [View](https://www.tempestbrewco.com/)
     - Broughton Ales - [View](https://untappd.com/BroughtonAles)
+- #### Additional
+    - Home page how it works image 2 - [View](https://www.independent.co.uk/news/business/google-search-local-beer-delivery-lockdown-coronavirus-customer-demand-a9687071.html)
+    - Mixed Crate - Customise your crate page - [View](https://www.redh.co.uk/blog/the-difference-between-ale-and-beer/)
+
+NOTE - As this is an internal CI project, images can be used without authorization from the image owner. 
+
 
 ## Acknowledgements
+- My mentor, Gerard McBride for continuous helpful feedback. 
+- Tutor support at Code Institue for their support. 
+- Code Institute, for teaching the necessary skill to build the site. 
+
 
 
 
