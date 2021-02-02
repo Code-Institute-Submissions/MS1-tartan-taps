@@ -246,7 +246,7 @@ Images taken from Unsplash
 
 Due to the nature of the website, and beers / breweries being highly specific, images have been taken from various sources which can be seen below: 
 
-- Beers
+- #### Beers
     - St Mungo Lager - [View](https://www.pinterest.dk/pin/575053446141127320/)
     - Che Guava Radical Lager - [View](https://www.eebriatrade.com/products/beer/williams-bros-brewing-co/21455-che-guava-gluten-free)
     - 71 Lager - [View](https://www.eebriatrade.com/products/beer/71-brewing/7070-lager)
@@ -286,23 +286,23 @@ Due to the nature of the website, and beers / breweries being highly specific, i
     - Chew Chew - [View](https://www.royalmilewhiskies.com/fallen-chew-chew-salted-caramel-milk-stout-6-44cl/)
     - Affogato - [View](https://www.eebriatrade.com/products/beer/stewart-brewing/32092-affogato)
     - Dark Days - [View](https://www.eebriatrade.com/products/beer/six-degrees-north/31372-dark-days-barrel-aged-stout)
-- Brewery Logos
-    - West Brewery - [View]()
-    - Williams Brothers - [View]()
-    - Fallen Brewing Company - [View]()
-    - 71 Brewing - [View]()
-    - Stewart Brewing - [View]()
-    - Fierce Beer - [View]()
-    - Loch Ness Brewery - [View]()
-    - Black Isle Brewing Company - [View]()
-    - Cromarty Brewing Company - [View]()
-    - Six Degrees North - [View]()
-    - Isle Of Skye Brewing Company - [View]()
-    - The Orkney Brewery - [View]()
-    - Isle of Arran Brewery - [View]()
-    - Islay Ales - [View]()
-    - Tempest Brewing Company - [View]()
-    - Broughton Ales - [View]()
+- #### Brewery Logos
+    - West Brewery - [View](https://twitter.com/westbeer)
+    - Williams Brothers - [View](https://www.williamsbrosbrew.com/)
+    - Fallen Brewing Company - [View](https://thebeer.uk/2017/11/16/fallen-brewing/)
+    - 71 Brewing - [View](https://www.brewersjournal.info/the-story-of-71-brewing/)
+    - Stewart Brewing - [View](https://twitter.com/stewartbrewing)
+    - Fierce Beer - [View](https://www.fiercebeer.com/brewery/about-us)
+    - Loch Ness Brewery - [View](https://thebeer.uk/2018/02/05/loch-ness-brewery/)
+    - Black Isle Brewing Company - [View](https://twitter.com/blackislebeer)
+    - Cromarty Brewing Company - [View](https://twitter.com/cromartybrewing)
+    - Six Degrees North - [View](https://twitter.com/sixdnorth)
+    - Isle Of Skye Brewing Company - [View](https://twitter.com/isleofskyebrew)
+    - The Orkney Brewery - [View](https://www.brewerydb.com/brewery/z9kt21)
+    - Isle of Arran Brewery - [View](https://twitter.com/arranbrewery)
+    - Islay Ales - [View](https://twitter.com/islayales)
+    - Tempest Brewing Company - [View](https://www.tempestbrewco.com/)
+    - Broughton Ales - [View](https://untappd.com/BroughtonAles)
 
 ## Acknowledgements
 
