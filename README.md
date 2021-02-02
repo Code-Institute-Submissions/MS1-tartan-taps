@@ -183,7 +183,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. [View here](assets/testing/first-user/how-it-works.png)
 
 2. #### As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
-    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages, which compresses to a burger menu on smaller devices. The current page is highlighted by underlining each link, and the text is changed to white. [View here](assets/testing/first-user/how-it-works.png)
+    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages, which compresses to a burger menu on smaller devices. The current page is highlighted by underlining each link, and the text is changed to white. [View here](assets/testing/first-user/navbar.png)
     - The logo will take the user back to the home page when clicked. 
     - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page in order to view another page. [View here](assets/testing//first-user/navbar-sticky.png)
     - Dropdown option on beers page allowing the user to quickly manouvre to different section on that page. [View here](assets/testing/first-user/navbar-dropdown.png)
@@ -198,8 +198,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing Returning Visitor Goals
 1. #### As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
+    - On the home screen on larger devices the user can sign up in three places. Sign up button in the jumbotron, Sign up / Sign in to the right of the logo and a Sign up / Sign in icon in the the footer. All will take the user to the same modal. [View here](assets/testing/returning-user/sign-up.png)
+    - On smaller devices the Sign up / Sign in option to the right of the logo is removed. The user can sign up from any page using the option in the footer. [View here](assets/testing/returning-user/sign-up-footer.png)
+
 2. #### As a Returning Visitor, I want to have options to get in contact with Tartan Taps, with any queries or questions I may have. 
+    - First option for a user to contact Tartan Taps can be located in the footer of the page, with an email address and telephone number. This appears on all device sizes. [View here](assets/testing/returning-user/contact-us.png)
+    - There is also a dedicated page to contact the company. Within this are FAQ's - if these do not fulfil the users queries then a contact us form is available for additional enquiries. [View here](assets/testing/returning-user/faqs-enquiry.png)
+
 3. #### As a Returning Visitor, I want to see customer reviews.
+    - The home page has a section dedicated to customer reviews. I have situated this directly below the jumbotron, so the user knows the company has a good reputation. Circular images have been used for variety, which do not display on smaller devices. [View here](assets/testing/returning-user/reviews.png)
 
 ### Testing Frequent User Goals
 1. #### As a Frequent User, I want to see what beers are available and compare them against my delivery. 
