@@ -179,19 +179,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Testing User Stories
 ### Testing First Time Visitor Goals
 1. #### As a First Time Visitor, I want to know at a glance the main purpose of Tartan Taps and what it can offer.
-    - When entering the site the user is greeted with a large hero image utilising Bootstraps Jumbotron component, with a dark overlay making the text clearly visible, describing the purpose of the company. [View here](assets/testing/jumbotron.png)
-    - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. 
+    - When entering the site the user is greeted with a large hero image utilising Bootstraps Jumbotron component, with a dark overlay making the text clearly visible, describing the purpose of the company. [View here](assets/testing/first-user/jumbotron.png)
+    - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. [View here](assets/testing/first-user/how-it-works.png)
+
 2. #### As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
-    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages. The current page is highlighted by underlining each link, and the text is changed to white.
+    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages, which compresses to a burger menu on smaller devices. The current page is highlighted by underlining each link, and the text is changed to white. [View here](assets/testing/first-user/how-it-works.png)
     - The logo will take the user back to the home page when clicked. 
-    - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page in order to view another page.
-    - Dropdown option on beers page allowing the user to quickly manouvre to different section on that page.
+    - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page in order to view another page. [View here](assets/testing//first-user/navbar-sticky.png)
+    - Dropdown option on beers page allowing the user to quickly manouvre to different section on that page. [View here](assets/testing/first-user/navbar-dropdown.png)
+
 3. #### As a First Time Visitor, I want to locate their Social Media accounts, to determine how trusted they are.
-    - On larger devices only social media icons (Facebook, Twitter, Instagram, Youtube) can be located to the left hand side of the logo. 
-    - On all device sizes social media icons can be locted in the footer of the site. All links to social media accounts will open in a different tab, to ensure the user does not lose access to the website.
+    - On larger devices only social media icons (Facebook, Twitter, Instagram, Youtube) can be located to the left hand side of the logo. [View here](assets/testing/first-user/social-logo.png)
+    - On all device sizes social media icons can be locted in the footer of the site. All links to social media accounts will open in a different tab, to ensure the user does not lose access to the website. [View here](assets/testing/first-user/social.png)
+
 4. #### As a First Time Visitor, I want to see prices in order to determine whether this a suitable product for purchase.
-    - The home page jumbotron shows a minimum price subscription, and a first month free message is visible in bold writing to entise the user. 
-    - Further pricing options are available on the customise your crate page using a dropdown form. 
+    - The home page jumbotron shows a minimum price subscription, and a first month free message is visible in bold writing to entise the user. [View here](assets/testing/first-user/home-price.png)
+    - Further pricing options are available on the customise your crate page using a dropdown form. [View here](assets/testing/first-user/prices.png)
 
 ### Testing Returning Visitor Goals
 1. #### As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
