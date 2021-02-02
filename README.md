@@ -179,7 +179,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Testing User Stories
 ### Testing First Time Visitor Goals
 1. #### As a First Time Visitor, I want to know at a glance the main purpose of Tartan Taps and what it can offer.
-    - When entering the site the user is greeted with a large hero image utilising Bootstraps Jumbotron component, with a dark overlay making the text clearly visible, describing the purpose of the company.
+    - When entering the site the user is greeted with a large hero image utilising Bootstraps Jumbotron component, with a dark overlay making the text clearly visible, describing the purpose of the company. [View here](assets/testing/jumbotron.png)
     - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. 
 2. #### As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
     - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages. The current page is highlighted by underlining each link, and the text is changed to white.
