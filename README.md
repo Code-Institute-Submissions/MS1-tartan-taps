@@ -56,7 +56,7 @@ In this section I have established user stories which will dictate the website f
         1. As a Frequent User, I want to see what beers are available and compare them against my delivery. 
         2. As a Frequent User, I want to find information about the breweries, from where the beers came. 
         3. As a Frequent User, I want to be able to cancel / pause my subscription at any point. 
-        4. As a Frequent User, I want to be able to change the amount of beers I order each month. 
+        4. As a Frequent User, I want to be able to change the amount of beers I order each month, and when I receive them.
 
 ## Scope
 
@@ -83,6 +83,7 @@ I would then implement back end technologies (knowledge not yet gained).
 
 - ### Phase 3:
     - Add a delivery and payments page.
+    - Add an edit your order page. 
 
 
 
@@ -210,9 +211,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing Frequent User Goals
 1. #### As a Frequent User, I want to see what beers are available and compare them against my delivery. 
+    - The beers page will show all the beers that the company offers. A brief description of each beer can be seen on the image content overlay. Descriptions have been taken from the individual breweries and edited to suit the needs of the project. [View here](assets/testing/frequent-user/beer-overlay.png)
+    - Due to the scope of the project it has been decided that it is not necessary to show any beers which may not be in stock. 
+
 2. #### As a Frequent User, I want to find information about the breweries, from where the beers came. 
+    - A brief description / history of the brewery can be located on the breweries page, which has been split into four sections for different regions in Scotland. A link to each brewery can be found on the brewery cards which will open in a new tab. [View here](assets/testing/frequent-user/brewery-cards.png)
+    - A brewery logo thumbnail image appears on the image content overlay of the beers, to identify which brewery the beer is from. [View here](assets/testing/frequent-user/brewery-logo.png)
+
 3. #### As a Frequent User, I want to be able to cancel / pause my subscription at any point. 
-4. #### As a Frequent User, I want to be able to change the amount of beers I order each month.
+    - I have addressed this in the FAQ's section on the contact us page, with a dropdown response explaining how this is achieved. [View here](assets/testing/frequent-user/cancel.png)
+
+4. #### As a Frequent User, I want to be able to change the amount of beers I order each month, and when I receive them.
+    - At this stage this is addressed in the FAQ's section on the contact us page. [View here.](assets/testing/frequent-user/edit-order.png) In further releases I would create an page / modal that would allow the user to edit their order online.
 
 ## Full Testing
 
