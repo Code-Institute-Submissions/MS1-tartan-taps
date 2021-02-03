@@ -104,7 +104,7 @@
 
 .menu {
     font-family: "Cormorant SC", sans-serif;
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .menu li {
@@ -181,7 +181,7 @@
 
 .block-divider-light {
     border-top: 5px solid #B09E80;
-    width: 50px;
+    width: 3rem;
 }
 
 .btn:hover {
@@ -194,14 +194,14 @@
 
 .customer-image-container {
     max-width: 450px;
-    margin: 30px;
+    margin: 2rem;
 }
 
 .customer-image {
     width: 150px;
     height: 150px;
     object-fit:cover;
-    padding: 8px;
+    padding: 0.5rem;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
     border-radius: 50%;
 }
@@ -223,7 +223,7 @@
     width: 250px;
     height: 250px;
     object-fit:cover;
-    padding: 8px;
+    padding: 0.5rem;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
     border-radius: 50%;
 }
@@ -239,7 +239,7 @@
 }
 
 .card {
-    padding: 8px;
+    padding: 0.5rem;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
     box-shadow: 10px 10px 5px #75664e;
 }
@@ -281,7 +281,7 @@
     width: 100%;
     height: 300px;
     object-fit:cover;
-    padding: 8px;
+    padding: 0.5rem;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
     box-shadow: 10px 10px 5px #75664e;
 }
@@ -305,8 +305,8 @@
 }
 
 .beer-image-logo {
-    width: 30px;
-    height:30px;
+    width: 2rem;
+    height: 2rem;
     object-fit: cover;
 }
 
@@ -359,6 +359,7 @@
     width: 50px;
 }
 
+
 /*----------breweries ends----------*/
 
 /*----------Customize Your Crate-----------*/
@@ -373,8 +374,8 @@
 
 .delivery-button {
     background-color: #192537;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 /*--------Customise Your Crate ends---------*/
@@ -397,13 +398,16 @@
 }
 
 .image-headings {
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 #iframe-map {
-    padding:8px;
+    padding:0.5rem;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
     border:none;
+    margin-top: 1.25rem;
+    width:100%;
+    height: 300px;
 }
 
 .faq-headings {
@@ -416,6 +420,10 @@
 
 .find-us {
     padding-top: 20px;
+}
+
+.address {
+    margin: 0;
 }
 
 /*--------Contact Us ends---------*/

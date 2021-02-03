@@ -352,6 +352,7 @@ Due to the nature of the website, and beers / breweries being highly specific, i
 - #### Additional
     - Home page how it works image 2 - [View](https://www.independent.co.uk/news/business/google-search-local-beer-delivery-lockdown-coronavirus-customer-demand-a9687071.html)
     - Mixed Crate - Customise your crate page - [View](https://www.redh.co.uk/blog/the-difference-between-ale-and-beer/)
+    - Tartan Background - [View](https://scottishshop.com/products/us-navy-tartan-sash?currency=GBP)
 
 NOTE - As this is an internal CI project, images can be used without authorization from the image owner. 
 
