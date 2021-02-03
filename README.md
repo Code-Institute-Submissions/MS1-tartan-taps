@@ -21,6 +21,7 @@
     - [Further Testing](#further-testing)
     - [Solved Bugs](#solved-bugs)
     - [Known Bugs](#known-bugs)
+    - [Lighthouse](#lighthouse)
 - [Deployment](#deployment)
     - [GitHub Pages](#github-pages)
     - [Forking the GitHub Repository](#forking-the-github-repository)
@@ -149,28 +150,30 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
 # Technologies used
 
 ## Languages used
-- HTML
-- CSS
+- [HTML](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ## Frameworks Libraries and Programmes used
-- Bootstrap 4.3.1
+- [Bootstrap 4.3.1](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
     - Used as a framework for styling and to make the website responsive.
-- jQuery
+- [jQuery](https://jquery.com/)
     - Used with Bootstrap to make the project responsive.
-- Hover.css 
+- [Hover.css](https://ianlunn.github.io/Hover/) 
     - Hover.css was used in the navbar and the navbar dropdown links when being hovered over. 
-- Google fonts
+- [Google fonts](https://fonts.google.com/)
     - Google Fonts was used to import the "Cormarant SC" and "Roboto" fonts used across the website.
-- Font Awesome
+- [Fontawesome](https://fontawesome.com/icons?d=gallery)
     - Font awesome was used to obtain the social media icons, stars for review section, and the beer glass for the Sign Up / Sign In Modal in the footer. 
-- Google Developer Tools 
+- [Google Developer Tools](https://developers.google.com/web/tools) 
     - Used as a method of fixing bugs, and testing the responsiveness on different devices. 
-- Github
+- [Github](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-- Git 
+- [Git](https://git-scm.com/) 
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-- Balsamiq
+- [Balsamiq](https://balsamiq.com/)
     - Balsamiq was used to create the the wireframes, seen at the skeleton section, during the design process.
+- [Reduce Images](https://www.reduceimages.com/)
+    - Reduce Images was used to re-size some of the websites images in order to improve performance. 
 
 # Testing 
 
@@ -239,9 +242,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Error: The col class was orignally written as col-md-4, so on medium devices 3 cards would try to fit on the same row resulting in overlapping. 
     - Fix: I corrected this to col-md-6 so that only 2 cards would display on one row on medium devices. 
     - Note: This was a common error until I got a better grasp of bootstrap's grid system. 
+- Jumbotron text "New Year New Beer" was overlapping the navbar on Iphone 5/SE and Galaxy Fold, when in a horizontal position on Google Dev Tools. 
+    - Error: As the jumbotron's height is measured by viewport height there isn't sufficient room for all the jumbotron text to fit.
+    - Fix: Max-height media queries for 320px (iphone 5 height horizontally) & 280px (Galaxy Fold height horizontally) have been added to increase the height of the jumbotron to include all the text. I could of omitted some of the jumbotron text however I did not want to do this, as it would affect the first user goal to know at a glance what the company offers. 
+
+
 ## Known Bugs
 - There is a tiny gap between the sticky-top navbar and the top of the screen when scrolling. This is most evident when using an iphone, showing the device frame, on chrome developer tools. 
     - There is no margin showing on google development tools, so I'm not sure why this is appearing. 
+
+
+## Lighthouse
+I tested my website using Lighthouse is Google Developement Tools, and after some image re-sizing this is the result I got. 
+
+![Lighthouse first try](assets/testing/lighthouse/lighthouse.png)
+
+As this was my first website design I was reasonably content with the results, however I wanted to increase my SEO score from 70-100.
+- The first issue identified was I did not have a meta description in the head of the HTML doc. 
+- The second issue was my links to the "sign up / sign in" modal were using data-target rather than href. 
+- Reduced the image sizes further to increase performance. 
+
+Below shows the outcome of the changes made.
+
+![Lighthouse first try](assets/testing/lighthouse/lighthouse-review.png)
+
+Despite reducing the image sizes further the changes I have made in order to increase the SEO, has reduced the performance of the website. 
+
+For the scope of this project I am happy with the results from Lighthouse, however I would like to re-visit performance and best practices to achieve a higher score. 
+
 
 # Deployment
 ## Github pages
