@@ -485,4 +485,18 @@ footer {
 
 /*--------Modal Ends---------*/
 
+/*--------Media Queries---------*/
 
+@media screen and (max-height: 320px) {
+.hero-image {
+    height: 130vh;
+}
+}
+
+@media screen and (max-height: 280px) {
+.hero-image {
+    height: 140vh;
+}
+}
+
+/*--------Media Queries Ends---------*/

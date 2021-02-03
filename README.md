@@ -229,9 +229,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Further Testing
 
 ## Solved Bugs
-
+- The burger menu in the navbar for smaller devices would not drop down to reveal the nav-links.
+    - Error: I did not have the JS popper in the correct position in the HTML docs.
+    - Fix: to correct this I added the script after the the footer and any modals, and before the body closing tag.
+- I wanted to add a sticky-top class to the navbar so that when it was scrolled past it would stick to the top of the screen. 
+    - Error: I originally had the navbar in the header section, which was inheriting properties preventing the navbar from sticking. 
+    - Fix: I moved the navbar outside the header class, and added a sticky-top class from bootstrap which sticks to the top of the page when scrolled past.
+- The home page cards when moving from small to medium devices would display on the same row and overlap one another. 
+    - Error: The col class was orignally written as col-md-4, so on medium devices 3 cards would try to fit on the same row resulting in overlapping. 
+    - Fix: I corrected this to col-md-6 so that only 2 cards would display on one row on medium devices. 
+    - Note: This was a common error until I got a better grasp of bootstrap's grid system. 
 ## Known Bugs
-
+- There is a tiny gap between the sticky-top navbar and the top of the screen when scrolling. This is most evident when using an iphone, showing the device frame, on chrome developer tools. 
+    - There is no margin showing on google development tools, so I'm not sure why this is appearing. 
 
 # Deployment
 ## Github pages
