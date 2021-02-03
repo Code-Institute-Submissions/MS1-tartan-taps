@@ -20,13 +20,43 @@
 
 /*-----------Background color ends------------*/
 
+/*-----------Text-----------*/
+
+.headings-light {
+    color: #B09E80;
+    font-family: "Cormorant SC", sans-serif;
+}
+
+.headings-dark {
+    color: #192537;
+    font-family: "Cormorant SC", sans-serif;
+}
+
+.content-text-light {
+    color: #B09E80;
+    font-family: "Roboto", sans-serif;
+}
+
+.content-text-dark {
+    color: #192537;
+    font-family: "Roboto", sans-serif;
+}
+
+/*-----------Headings Padding------------*/
+.headings {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*-----------Headings Padding Ends------------*/
+
+/*-----------Text Ends------------*/
+
 /*-----------Logo-----------*/
 
 .logo-abb {
-    font-family: "Cormorant SC", sans-serif;
     margin:0;
-    color: #B09E80;
-    margin-top: 15px;
+    margin-top: 1rem;
 }
 
 .logo-abb:before,
@@ -49,10 +79,8 @@
 }
 
 .logo {
-    font-family: "Cormorant SC", sans-serif;
     font-weight: 600;
     margin: 0;
-    color: #192537
 }
 
 .no-underline:hover {
@@ -61,15 +89,12 @@
 
 .social-links-logo {
     padding-top: 35px;
-    padding-left: 10px;
+    padding-left: 1rem;
 }
 
-
 .headings-logo {
-    font-family: "Cormorant SC", sans-serif;
-    color: #B09E80;
     padding-top: 35px;
-    padding-right: 10px;
+    padding-right: 1rem;
 }
 
 
@@ -125,23 +150,10 @@
 
 /*----------Home Jumbotron----------*/
 
-.jumbotron h1,h2 {
-    font-family: "Cormorant SC", sans-serif;
-    color: #B09E80;
-}
-
-
-
-.lead, .jumbotron-text {
-    font-family: "Roboto", sans-serif;
-    color: #B09E80
-}
-
 .jumbotron {
     background-color: transparent;
     padding: 0;
 }
-
 
 .hero-image {
     height:115vh;
@@ -172,8 +184,9 @@
     width: 50px;
 }
 
-
-
+.btn:hover {
+    color: #fff;
+}
 
 /*----------Home Jumbotron Ends-----------*/
 
@@ -236,16 +249,6 @@
     background-color: #192537;
 }
 
-.card-title {
-    color: #B09E80;
-    font-family: "Cormorant SC", sans-serif;
-}
-
-.card-text {
-    color: #B09E80;
-    font-family: "Roboto", sans-serif;
-}
-
 .card-img-top {
     width:100%;
     height: auto;
@@ -253,9 +256,13 @@
 
 .card-button {
     background-color: #B09E80;
-    color: #192537;
-    font-family:"Cormorant SC", sans-serif;
     border: none;
+}
+
+.card-button:hover {
+    background-color: #304667;
+    color: #B09E80;
+    border: 1px solid #B09E80;
 }
 
 
@@ -268,7 +275,6 @@
     max-width:250px;
     position: relative;
     margin: 20px;
-    
 }
 
 .beer-image {
@@ -278,14 +284,13 @@
     padding: 8px;
     background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
     box-shadow: 10px 10px 5px #75664e;
-    
 }
 
 .overlay {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(27,37,55, 0.8); /* Black see-through */
+  background: rgba(27,37,55, 0.9);
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
@@ -303,7 +308,6 @@
     width: 30px;
     height:30px;
     object-fit: cover;
-
 }
 
 .beers-hero-image {
@@ -355,23 +359,10 @@
     width: 50px;
 }
 
-
-
 /*----------breweries ends----------*/
 
 /*----------Customize Your Crate-----------*/
 
-.headings {
-    font-family: "Cormorant SC", sans-serif;
-    color: #192537;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.content-text {
-    color: #192537;
-    font-family: "Roboto", sans-serif;
-}
 .add-info {
     margin-top: 10px;
 }
@@ -382,8 +373,6 @@
 
 .delivery-button {
     background-color: #192537;
-    color: #B09E80;
-    font-family: "Cormorant SC", sans-serif;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -408,11 +397,8 @@
 }
 
 .image-headings {
-    font-family: "Cormorant SC", sans-serif;
-    color: #B09E80;
     font-size: 50px;
 }
-
 
 #iframe-map {
     padding:8px;
@@ -421,8 +407,6 @@
 }
 
 .faq-headings {
-    font-family: "Cormorant SC", sans-serif;
-    color: #192537;
     padding-top: 20px;
 }
 
@@ -440,16 +424,8 @@
 /*--------Footer--------*/
 
 .footer-headings {
-    font-family: "Cormorant SC", sans-serif;
     margin:0;
-    color: #B09E80;
     margin-bottom: 20px;
-    text-align: center;
-}
-
-.information {
-    font-family: "Roboto", sans-serif;
-    color: #B09E80;
 }
 
 .footer-menu {
@@ -462,7 +438,6 @@
     text-align: center;
     color: #B09E80;
     margin: 0;
-    
 }
 
 footer {
@@ -481,20 +456,14 @@ footer {
 
 .sign-up-button {
     background-color: #192537;
-    color: #B09E80;
-    font-family: "Cormorant SC", sans-serif;
     margin-bottom: 10px;
 }
 
 .modal-header {
-    color: #192537;
-    font-family:"Cormorant SC", sans-serif;
     font-weight: 600;
 }
 
 .form-group label {
-    color: #192537;
-    font-family:"Cormorant SC", sans-serif;
     font-weight: 600;
 }
 
