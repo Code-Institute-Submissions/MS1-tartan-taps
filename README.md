@@ -105,13 +105,13 @@ Below you can find links to the initial draft of the wireframes I've created for
 
 - ### Wireframes
     I have created wireframes using Balsamiq for desktop, tablet and mobile devices. 
-    - Home Page Wireframe - [View](assets/wireframes/home-page-wireframe.pdf)
-    - Beers Wireframe - [View](assets/wireframes/beer-wireframe.pdf)
-    - Breweries Wireframe - [View](assets/wireframes/breweries-wireframe.pdf)
-    - Customize Your Crate Wireframe - [View](assets/wireframes/crates-wireframe.pdf)
-    - Contact Us Wireframe - [View](assets/wireframes/contact-us-wireframe.pdf)
-    - Sign Up Modal Wireframe - [View](assets/wireframes/sign-up-modal-wireframe.pdf)
-    - Additional Information Wireframe - [View](assets/wireframes/additional-information-modal-wireframe.pdf) 
+    - Home Page Wireframe - [View](documentation/wireframes/home-page-wireframe.pdf)
+    - Beers Wireframe - [View](documentation/wireframes/beer-wireframe.pdf)
+    - Breweries Wireframe - [View](documentation/wireframes/breweries-wireframe.pdf)
+    - Customize Your Crate Wireframe - [View](documentation/wireframes/crates-wireframe.pdf)
+    - Contact Us Wireframe - [View](documentation/wireframes/contact-us-wireframe.pdf)
+    - Sign Up Modal Wireframe - [View](documentation/wireframes/sign-up-modal-wireframe.pdf)
+    - Additional Information Wireframe - [View](documentation/wireframes/additional-information-modal-wireframe.pdf) 
 
 As the project has progressed there have been quite a few changes to what was originally laid out in the wireframes.
 These changes have been made to improve the aethetics and functionality of the website, based on feedback and my own opinion. 
@@ -178,71 +178,80 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
 # Testing 
 
 ## W3C Validator
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+- W3C CSS Validator
+    - [stle.css results](documentation/testing/validator/css-validator.png)
+
+- W3C Markup Validator
+    - [index.html results](documentation/testing/validator/index-validator.png)
+    - [beers.html results](documentation/testing/validator/beers-validator.png)
+    - [breweries.html results](documentation/testing/validator/breweries-validator.png)
+    - [crates.html results](documentation/testing/validator/crates-validator.png)
+    - [contact-us.html results](documentation/testing/validator/contact-validator.png)
 
 ## Testing User Stories
 ### Testing First Time Visitor Goals
 1. #### As a First Time Visitor, I want to know at a glance the main purpose of Tartan Taps and what it can offer.
-    - When entering the site the user is greeted with a large hero image utilising Bootstraps Jumbotron component, with a dark overlay making the text clearly visible, describing the purpose of the company. [View here](assets/testing/first-user/jumbotron.png)
-    - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. [View here](assets/testing/first-user/how-it-works.png)
+    - When entering the site the user is greeted with a large hero image utilising Bootstraps Jumbotron component, with a dark overlay making the text clearly visible, describing the purpose of the company. [View here](documentation/testing/first-user/jumbotron.png)
+    - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. [View here](documentation/testing/first-user/how-it-works.png)
 
 2. #### As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
-    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages, which compresses to a burger menu on smaller devices. The current page is highlighted by underlining each link, and the text is changed to white. [View here](assets/testing/first-user/navbar.png)
+    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages, which compresses to a burger menu on smaller devices. The current page is highlighted by underlining each link, and the text is changed to white. [View here](documentation/testing/first-user/navbar.png)
     - The logo will take the user back to the home page when clicked. 
-    - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page in order to view another page. [View here](assets/testing//first-user/navbar-sticky.png)
-    - Dropdown option on beers page allowing the user to quickly manouvre to different section on that page. [View here](assets/testing/first-user/navbar-dropdown.png)
+    - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page in order to view another page. [View here](documentation/testing//first-user/navbar-sticky.png)
+    - Dropdown option on beers page allowing the user to quickly manouvre to different section on that page. [View here](documentation/testing/first-user/navbar-dropdown.png)
 
 3. #### As a First Time Visitor, I want to locate their Social Media accounts, to determine how trusted they are.
-    - On larger devices only social media icons (Facebook, Twitter, Instagram, Youtube) can be located to the left hand side of the logo. [View here](assets/testing/first-user/social-logo.png)
-    - On all device sizes social media icons can be locted in the footer of the site. All links to social media accounts will open in a different tab, to ensure the user does not lose access to the website. [View here](assets/testing/first-user/social.png)
+    - On larger devices only social media icons (Facebook, Twitter, Instagram, Youtube) can be located to the left hand side of the logo. [View here](documentation/testing/first-user/social-logo.png)
+    - On all device sizes social media icons can be locted in the footer of the site. All links to social media accounts will open in a different tab, to ensure the user does not lose access to the website. [View here](documentation/testing/first-user/social.png)
 
 4. #### As a First Time Visitor, I want to see prices in order to determine whether this a suitable product for purchase.
-    - The home page jumbotron shows a minimum price subscription, and a first month free message is visible in bold writing to entise the user. [View here](assets/testing/first-user/home-price.png)
-    - Further pricing options are available on the customise your crate page using a dropdown form. [View here](assets/testing/first-user/prices.png)
+    - The home page jumbotron shows a minimum price subscription, and a first month free message is visible in bold writing to entise the user. [View here](documentation/testing/first-user/home-price.png)
+    - Further pricing options are available on the customise your crate page using a dropdown form. [View here](documentation/testing/first-user/prices.png)
 
 ### Testing Returning Visitor Goals
 1. #### As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
-    - On the home screen on larger devices the user can sign up in three places. Sign up button in the jumbotron, Sign up / Sign in to the right of the logo and a Sign up / Sign in icon in the the footer. All will take the user to the same modal. [View here](assets/testing/returning-user/sign-up.png)
-    - On smaller devices the Sign up / Sign in option to the right of the logo is removed. The user can sign up from any page using the option in the footer. [View here](assets/testing/returning-user/sign-up-footer.png)
+    - On the home screen on larger devices the user can sign up in three places. Sign up button in the jumbotron, Sign up / Sign in to the right of the logo and a Sign up / Sign in icon in the the footer. All will take the user to the same modal. [View here](documentation/testing/returning-user/sign-up.png)
+    - On smaller devices the Sign up / Sign in option to the right of the logo is removed. The user can sign up from any page using the option in the footer. [View here](documentation/testing/returning-user/sign-up-footer.png)
 
 2. #### As a Returning Visitor, I want to have options to get in contact with Tartan Taps, with any queries or questions I may have. 
-    - First option for a user to contact Tartan Taps can be located in the footer of the page, with an email address and telephone number. This appears on all device sizes. [View here](assets/testing/returning-user/contact-us.png)
-    - There is also a dedicated page to contact the company. Within this are FAQ's - if these do not fulfil the users queries then a contact us form is available for additional enquiries. [View here](assets/testing/returning-user/faqs-enquiry.png)
+    - First option for a user to contact Tartan Taps can be located in the footer of the page, with an email address and telephone number. This appears on all device sizes. [View here](documentation/testing/returning-user/contact-us.png)
+    - There is also a dedicated page to contact the company. Within this are FAQ's - if these do not fulfil the users queries then a contact us form is available for additional enquiries. [View here](documentation/testing/returning-user/faqs-enquiry.png)
 
 3. #### As a Returning Visitor, I want to see customer reviews.
-    - The home page has a section dedicated to customer reviews. I have situated this directly below the jumbotron, so the user knows the company has a good reputation. Circular images have been used for variety, which do not display on smaller devices. [View here](assets/testing/returning-user/reviews.png)
+    - The home page has a section dedicated to customer reviews. I have situated this directly below the jumbotron, so the user knows the company has a good reputation. Circular images have been used for variety, which do not display on smaller devices. [View here](documentation/testing/returning-user/reviews.png)
 
 ### Testing Frequent User Goals
 1. #### As a Frequent User, I want to see what beers are available and compare them against my delivery. 
-    - The beers page will show all the beers that the company offers. A brief description of each beer can be seen on the image content overlay. Descriptions have been taken from the individual breweries and edited to suit the needs of the project. [View here](assets/testing/frequent-user/beer-overlay.png)
+    - The beers page will show all the beers that the company offers. A brief description of each beer can be seen on the image content overlay. Descriptions have been taken from the individual breweries and edited to suit the needs of the project. [View here](documentation/testing/frequent-user/beer-overlay.png)
     - Due to the scope of the project it has been decided that it is not necessary to show any beers which may not be in stock. 
 
 2. #### As a Frequent User, I want to find information about the breweries, from where the beers came. 
-    - A brief description / history of the brewery can be located on the breweries page, which has been split into four sections for different regions in Scotland. A link to each brewery can be found on the brewery cards which will open in a new tab. [View here](assets/testing/frequent-user/brewery-cards.png)
-    - A brewery logo thumbnail image appears on the image content overlay of the beers, to identify which brewery the beer is from. [View here](assets/testing/frequent-user/brewery-logo.png)
+    - A brief description / history of the brewery can be located on the breweries page, which has been split into four sections for different regions in Scotland. A link to each brewery can be found on the brewery cards which will open in a new tab. [View here](documentation/testing/frequent-user/brewery-cards.png)
+    - A brewery logo thumbnail image appears on the image content overlay of the beers, to identify which brewery the beer is from. [View here](documentation/testing/frequent-user/brewery-logo.png)
 
 3. #### As a Frequent User, I want to be able to cancel / pause my subscription at any point. 
-    - I have addressed this in the FAQ's section on the contact us page, with a dropdown response explaining how this is achieved. [View here](assets/testing/frequent-user/cancel.png)
+    - I have addressed this in the FAQ's section on the contact us page, with a dropdown response explaining how this is achieved. [View here](documentation/testing/frequent-user/cancel.png)
 
 4. #### As a Frequent User, I want to be able to change the amount of beers I order each month, and when I receive them.
-    - At this stage this is addressed in the FAQ's section on the contact us page. [View here.](assets/testing/frequent-user/edit-order.png) In further releases I would create an page / modal that would allow the user to edit their order online.
+    - At this stage this is addressed in the FAQ's section on the contact us page. [View here.](documentation/testing/frequent-user/edit-order.png) In further releases I would create an page / modal that would allow the user to edit their order online.
 
 ## Full Testing
 
 ### Google Developer Tools
 Google developer tools was used throughout the project to test the responsiveness of the website across multiple device sizes. I have used Google Developer tools to simulate device sizes:
-- Iphone 5 / SE: [Portrait](assets/testing/device-testing/iphone5-p.png), [Landscape](assets/testing/device-testing/iphone5-l.png)
-- Iphone 6 / 7 / 8: [Portrait](assets/testing/device-testing/iphone6-p.png), [Landscape](assets/testing/device-testing/iphone6-l.png)
-- Iphone X: [Portrait](assets/testing/device-testing/iphonex-p.png), [Landscape](assets/testing/device-testing/iphonex-l.png)
-- Ipad: [Portrait](assets/testing/device-testing/ipad-p.png), [Landscape](assets/testing/device-testing/ipad-l.png)
-- Ipad Pro: [Portrait](assets/testing/device-testing/ipad-pro-p.png), [Landscape](assets/testing/device-testing/ipad-pro-l.png)
-- Moto G4: [Portrait](assets/testing/device-testing/motog4-p.png), [Landscape](assets/testing/device-testing/motog4-l.png)
-- Galaxy S5: [Portrait](assets/testing/device-testing/galaxy-p.png), [Landscape](assets/testing/device-testing/galaxy-l.png)
-- Pixel 2: [Portrait](assets/testing/device-testing/pixel-p.png), [Landscape](assets/testing/device-testing/pixel-l.png)
-- Surface Duo: [Portrait](assets/testing/device-testing/surface-duo-p.png), [Landscape](assets/testing/device-testing/surface-duo-l.png)
-- Galaxy Fold: [Portrait](assets/testing/device-testing/fold-p.png), [Landscape](assets/testing/device-testing/fold-l.png)
+- Iphone 5 / SE: [Portrait](documentation/testing/device-testing/iphone5-p.png), [Landscape](documentation/testing/device-testing/iphone5-l.png)
+- Iphone 6 / 7 / 8: [Portrait](documentation/testing/device-testing/iphone6-p.png), [Landscape](documentation/testing/device-testing/iphone6-l.png)
+- Iphone X: [Portrait](documentation/testing/device-testing/iphonex-p.png), [Landscape](documentation/testing/device-testing/iphonex-l.png)
+- Ipad: [Portrait](documentation/testing/device-testing/ipad-p.png), [Landscape](documentation/testing/device-testing/ipad-l.png)
+- Ipad Pro: [Portrait](documentation/testing/device-testing/ipad-pro-p.png), [Landscape](documentation/testing/device-testing/ipad-pro-l.png)
+- Moto G4: [Portrait](documentation/testing/device-testing/motog4-p.png), [Landscape](documentation/testing/device-testing/motog4-l.png)
+- Galaxy S5: [Portrait](documentation/testing/device-testing/galaxy-p.png), [Landscape](documentation/testing/device-testing/galaxy-l.png)
+- Pixel 2: [Portrait](documentation/testing/device-testing/pixel-p.png), [Landscape](documentation/testing/device-testing/pixel-l.png)
+- Surface Duo: [Portrait](documentation/testing/device-testing/surface-duo-p.png), [Landscape](documentation/testing/device-testing/surface-duo-l.png)
+- Galaxy Fold: [Portrait](documentation/testing/device-testing/fold-p.png), [Landscape](documentation/testing/device-testing/fold-l.png)
 
-These simulated tests only show the home page logo, navbar, and jumbotron as this is where I experienced most of issues due to the jumbotron's viewport height. As can be seen there is no overlapping and the website is responsive for every page on all device sizes. 
+These simulated tests only show the home page logo, navbar, and jumbotron as this is where I experienced most of issues due to the jumbotron's viewport height. As can be seen there is no overlapping and the website is responsive for every page on all device sizes listed. 
 
 ## Further Testing
 
@@ -275,7 +284,7 @@ These simulated tests only show the home page logo, navbar, and jumbotron as thi
 ## Lighthouse
 I tested my website using Lighthouse is Google Developement Tools, and after some image re-sizing this is the result I got. 
 
-![Lighthouse first try](assets/testing/lighthouse/lighthouse.png)
+![Lighthouse first try](documentation/testing/lighthouse/lighthouse.png)
 
 As this was my first website design I was reasonably content with the results, however I wanted to increase my SEO score from 70-100.
 - The first issue identified was I did not have a meta description in the head of the HTML doc. 
@@ -284,7 +293,7 @@ As this was my first website design I was reasonably content with the results, h
 
 Below shows the outcome of the changes made.
 
-![Lighthouse first try](assets/testing/lighthouse/lighthouse-review.png)
+![Lighthouse first try](documentation/testing/lighthouse/lighthouse-review.png)
 
 Despite reducing the image sizes further the changes I have made in order to increase the SEO, has reduced the performance of the website. 
 
