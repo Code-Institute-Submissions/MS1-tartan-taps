@@ -229,6 +229,19 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Full Testing
 
+### Google Developer Tools
+Google developer tools was used throughout the project to test the responsiveness of the website across multiple device sizes. I have used Google Developer tools to simulate device sizes:
+- Iphone 5 / SE: [Portrait](assets/testing/device-testing/iphone5-p.png), [Landscape]()
+- Iphone 6 / 7 / 8: [Portrait](), [Landscape]()
+- Iphone X: [Portrait](), [Landscape]()
+- Ipad: [Portrait](), [Landscape]()
+- Ipad Pro: [Portrait](), [Landscape]()
+- Moto G4: [Portrait](), [Landscape]()
+- Galaxy S5: [Portrait](), [Landscape]()
+- Pixel 2: [Portrait](), [Landscape]()
+- Surface Duo: [Portrait](), [Landscape]()
+- Galaxy Fold: [Portrait](), [Landscape]()
+
 ## Further Testing
 
 ## Solved Bugs
@@ -244,7 +257,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Note: This was a common error until I got a better grasp of bootstrap's grid system. 
 - Jumbotron text "New Year New Beer" was overlapping the navbar on Iphone 5/SE and Galaxy Fold, when in a horizontal position on Google Dev Tools. 
     - Error: As the jumbotron's height is measured by viewport height there isn't sufficient room for all the jumbotron text to fit.
-    - Fix: Max-height media queries for 320px (iphone 5 height horizontally) & 280px (Galaxy Fold height horizontally) have been added to increase the height of the jumbotron to include all the text. I could of omitted some of the jumbotron text however I did not want to do this, as it would affect the first user goal to know at a glance what the company offers. 
+    - Fix: Max-height media queries for 320px (iphone 5 height horizontally) & 280px (Galaxy Fold height horizontally) have been added to increase the height of the jumbotron to include all the text. I could of omitted some of the jumbotron text however I did not want to do this, as it would affect the first user goal to know at a glance what the company offers.
+- Although not a bug I had a lot of repeated CSS for font-family and color due to lack of project planning at the beginning of the project.
+    - Fix: I created 4 classes for text content and styled them in CSS. This resulted in 50 lines of repeated CSS removed from the style.css.
 
 
 ## Known Bugs
@@ -260,7 +275,7 @@ I tested my website using Lighthouse is Google Developement Tools, and after som
 As this was my first website design I was reasonably content with the results, however I wanted to increase my SEO score from 70-100.
 - The first issue identified was I did not have a meta description in the head of the HTML doc. 
 - The second issue was my links to the "sign up / sign in" modal were using data-target rather than href. 
-- Reduced the image sizes further to increase performance. 
+- I reduced the image sizes further to increase performance. 
 
 Below shows the outcome of the changes made.
 
