@@ -174,6 +174,8 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
     - Balsamiq was used to create the the wireframes, seen at the skeleton section, during the design process.
 - [Reduce Images](https://www.reduceimages.com/)
     - Reduce Images was used to re-size some of the websites images in order to improve performance. 
+- [Sauce Labs](https://saucelabs.com/)
+    - Sauce labs was utilised to complete cross browser testing. 
 
 # Testing 
 
@@ -238,6 +240,20 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 
 ## Full Testing
 
+Testing was completed using the following steps on all interactive elements of the website. [View here](documentation/testing/device-testing/testing-criteria.pdf)
+
+## Further Testing
+
+### Browser Compatibility
+Sauce labs was used in order to test the website across different browsers. The following browsers were tested:
+- Google chrome - successful
+- Microsoft Edge - successful
+- Mozilla Firefox - successful
+- Safari worked however it would not allow you to choose a date using the datepicker on the Customise Your Crate page - [seen here](documentation/testing/device-testing/safari-error.png).
+- Internet Explorer 11 was the worst experience and more or less broke the website. Images were stretched, dropdown for the FAQ's were broken, text was off-center, and the jumbotron text was completely out of alignment - [seen here](documentation/testing/device-testing/ie11-error.png)
+
+
+
 ### Google Developer Tools
 Google developer tools was used throughout the project to test the responsiveness of the website across multiple device sizes. I have used Google Developer tools to simulate device sizes:
 - Iphone 5 / SE: [Portrait](documentation/testing/device-testing/iphone5-p.png), [Landscape](documentation/testing/device-testing/iphone5-l.png)
@@ -253,7 +269,6 @@ Google developer tools was used throughout the project to test the responsivenes
 
 These simulated tests only show the home page logo, navbar, and jumbotron as this is where I experienced most of issues due to the jumbotron's viewport height. As can be seen there is no overlapping and the website is responsive for every page on all device sizes listed. 
 
-## Further Testing
 
 ## Solved Bugs
 - The burger menu in the navbar for smaller devices would not drop down to reveal the nav-links.
