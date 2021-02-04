@@ -1,5 +1,7 @@
 <h1 align="center">Tartan Taps Website</h1>
 
+![Mock Up Image](documentation/testing/device-testing/mock-up.png)
+
 # Contents
 
 - [User Experience (UX)](#user-experience-(ux))
@@ -176,6 +178,8 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
     - Reduce Images was used to re-size some of the websites images in order to improve performance. 
 - [Sauce Labs](https://saucelabs.com/)
     - Sauce labs was utilised to complete cross browser testing. 
+- [Techsini](https://techsini.com/multi-mockup/)
+    - Techsini has been utilisted for website mockup's. 
 
 # Testing 
 
