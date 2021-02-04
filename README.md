@@ -231,16 +231,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Google Developer Tools
 Google developer tools was used throughout the project to test the responsiveness of the website across multiple device sizes. I have used Google Developer tools to simulate device sizes:
-- Iphone 5 / SE: [Portrait](assets/testing/device-testing/iphone5-p.png), [Landscape]()
-- Iphone 6 / 7 / 8: [Portrait](), [Landscape]()
-- Iphone X: [Portrait](), [Landscape]()
-- Ipad: [Portrait](), [Landscape]()
-- Ipad Pro: [Portrait](), [Landscape]()
-- Moto G4: [Portrait](), [Landscape]()
-- Galaxy S5: [Portrait](), [Landscape]()
-- Pixel 2: [Portrait](), [Landscape]()
-- Surface Duo: [Portrait](), [Landscape]()
-- Galaxy Fold: [Portrait](), [Landscape]()
+- Iphone 5 / SE: [Portrait](assets/testing/device-testing/iphone5-p.png), [Landscape](assets/testing/device-testing/iphone5-l.png)
+- Iphone 6 / 7 / 8: [Portrait](assets/testing/device-testing/iphone6-p.png), [Landscape](assets/testing/device-testing/iphone6-l.png)
+- Iphone X: [Portrait](assets/testing/device-testing/iphonex-p.png), [Landscape](assets/testing/device-testing/iphonex-l.png)
+- Ipad: [Portrait](assets/testing/device-testing/ipad-p.png), [Landscape](assets/testing/device-testing/ipad-l.png)
+- Ipad Pro: [Portrait](assets/testing/device-testing/ipad-pro-p.png), [Landscape](assets/testing/device-testing/ipad-pro-l.png)
+- Moto G4: [Portrait](assets/testing/device-testing/motog4-p.png), [Landscape](assets/testing/device-testing/motog4-l.png)
+- Galaxy S5: [Portrait](assets/testing/device-testing/galaxy-p.png), [Landscape](assets/testing/device-testing/galaxy-l.png)
+- Pixel 2: [Portrait](assets/testing/device-testing/pixel-p.png), [Landscape](assets/testing/device-testing/pixel-l.png)
+- Surface Duo: [Portrait](assets/testing/device-testing/surface-duo-p.png), [Landscape](assets/testing/device-testing/surface-duo-l.png)
+- Galaxy Fold: [Portrait](assets/testing/device-testing/fold-p.png), [Landscape](assets/testing/device-testing/fold-l.png)
 
 ## Further Testing
 

@@ -499,4 +499,14 @@ footer {
 }
 }
 
+@media screen and (max-width: 280px) {
+.card {
+    max-width: 250px;
+}
+
+.card-body {
+    height: auto;
+}
+}
+
 /*--------Media Queries Ends---------*/
