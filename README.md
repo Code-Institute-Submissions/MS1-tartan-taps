@@ -242,6 +242,8 @@ Google developer tools was used throughout the project to test the responsivenes
 - Surface Duo: [Portrait](assets/testing/device-testing/surface-duo-p.png), [Landscape](assets/testing/device-testing/surface-duo-l.png)
 - Galaxy Fold: [Portrait](assets/testing/device-testing/fold-p.png), [Landscape](assets/testing/device-testing/fold-l.png)
 
+These simulated tests only show the home page logo, navbar, and jumbotron as this is where I experienced most of issues due to the jumbotron's viewport height. As can be seen there is no overlapping and the website is responsive for every page on all device sizes. 
+
 ## Further Testing
 
 ## Solved Bugs
@@ -258,6 +260,9 @@ Google developer tools was used throughout the project to test the responsivenes
 - Jumbotron text "New Year New Beer" was overlapping the navbar on Iphone 5/SE and Galaxy Fold, when in a horizontal position on Google Dev Tools. 
     - Error: As the jumbotron's height is measured by viewport height there isn't sufficient room for all the jumbotron text to fit.
     - Fix: Max-height media queries for 320px (iphone 5 height horizontally) & 280px (Galaxy Fold height horizontally) have been added to increase the height of the jumbotron to include all the text. I could of omitted some of the jumbotron text however I did not want to do this, as it would affect the first user goal to know at a glance what the company offers.
+- Home, Breweries and Customise Your crate page "cards" did not fit when testing the responsiveness on Galaxy Fold platform. 
+    - Error: The width of the cards was wider than the screen width of the device. 
+    - Fix: Max-width media queries for 280px, have been added which has reduced the size of the cards so they are no longer wider than the screen width. As the width of the cards have reduced this meant that text and visit website buttons were pushed out of the cards on the Breweries page. I have corrected this with an additional media query, changing the height to auto on the card body.
 - Although not a bug I had a lot of repeated CSS for font-family and color due to lack of project planning at the beginning of the project.
     - Fix: I created 4 classes for text content and styled them in CSS. This resulted in 50 lines of repeated CSS removed from the style.css.
 

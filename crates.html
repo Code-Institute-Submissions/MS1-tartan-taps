@@ -170,7 +170,6 @@
         </div>
     </section>
 
-
     <footer class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-12 col-sm-6 col-md-4 footer-menu">
@@ -218,7 +217,7 @@
         </div>
     </footer>
     
-    <!-- Modal from Bootstrap -->
+    <!-- Sign Up Modal from Bootstrap -->
     <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -232,16 +231,16 @@
                     <form>
                         <div class="form-group">
                             <label class="headings-dark" for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                         </div>
                         <div class="form-group">
                             <label class="headings-dark" for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
                         </div>
                         <div class="form-group">
                             <label class="headings-dark" for="repeat-password">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeat-password" placeholder="Repeat Password">
+                            <input type="password" class="form-control" id="repeat-password" placeholder="Repeat Password" required>
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" class="form-check-input" id="remember-me">
@@ -254,33 +253,28 @@
         </div>
     </div>
 
-    <!-- Additional Information Modal -->
-
-    
-<div class="modal fade" id="addInfoModal" tabindex="-1" role="dialog" aria-labelledby="addinfo" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header headings-dark">
-        <h5 class="modal-title" id="addinfo">We've got this!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body content-text-dark">
-        <ul class="checked">
-            <li><span><i class="far fa-check-circle"></i></span> Latest Scottish Beers</li>
-            <li><span><i class="far fa-check-circle"></i></span> Choose 6, 9 or 12 beers</li>
-            <li><span><i class="far fa-check-circle"></i></span> Delivered to your door every month</li>
-            <li><span><i class="far fa-check-circle"></i></span> Free cancellation anytime</li>
-        </ul>
-        <p>Seen a beer you like the look of? Leave a comment below and we'll do our best to include it in your order</p>
-      </div>
+    <!-- Additional Information Modal from bootstrap -->
+    <div class="modal fade" id="addInfoModal" tabindex="-1" role="dialog" aria-labelledby="addinfo" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header headings-dark">
+            <h5 class="modal-title" id="addinfo">We've got this!</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body content-text-dark">
+            <ul class="checked">
+                <li><span><i class="far fa-check-circle"></i></span> Latest Scottish Beers</li>
+                <li><span><i class="far fa-check-circle"></i></span> Choose 6, 9 or 12 beers</li>
+                <li><span><i class="far fa-check-circle"></i></span> Delivered to your door every month</li>
+                <li><span><i class="far fa-check-circle"></i></span> Free cancellation anytime</li>
+            </ul>
+            <p>Seen a beer you like the look of? Leave a comment below and we'll do our best to include it in your order</p>
+        </div>
+        </div>
     </div>
-  </div>
-</div>
-
-
-
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

@@ -60,7 +60,7 @@
 }
 
 .logo-abb:before,
-.logo-abb:after {
+.logo-abb:after { /*-- Thanks to http://vclever.com/blog/how-to-style-a-heading-with-horizontal-lines-either-side-using-css/ for this code --*/
  background-color: #B09E80;
  content: "";
  display: inline-block;
@@ -69,11 +69,11 @@
  vertical-align: middle;
  width: 75px;
 }
-.logo-abb:before {
+.logo-abb:before { /*-- Thanks to http://vclever.com/blog/how-to-style-a-heading-with-horizontal-lines-either-side-using-css/ for this code --*/
  right: 0.5em;
  margin-left: -50%;
 }
-.logo-abb:after {
+.logo-abb:after { /*-- Thanks to http://vclever.com/blog/how-to-style-a-heading-with-horizontal-lines-either-side-using-css/ for this code --*/
  left: 0.5em;
  margin-right: -50%;
 }
@@ -155,7 +155,7 @@
     padding: 0;
 }
 
-.hero-image {
+.hero-image { /*-- Thanks to Matt Rudge at Code Institue for this code --*/
     height:115vh;
     background: url('../images/beer-tap-background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -170,7 +170,7 @@
     position:relative;
 }
 
-.opaque-overlay {
+.opaque-overlay { /*-- Thanks to Matt Rudge at Code Institue for this code --*/
     position: absolute;
     top:0;
     left: 0;
@@ -202,7 +202,7 @@
     height: 150px;
     object-fit:cover;
     padding: 0.5rem;
-    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    background: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933) no-repeat center center;
     border-radius: 50%;
 }
 
@@ -224,7 +224,7 @@
     height: 250px;
     object-fit:cover;
     padding: 0.5rem;
-    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    background: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933) no-repeat center center;
     border-radius: 50%;
 }
 
@@ -240,7 +240,7 @@
 
 .card {
     padding: 0.5rem;
-    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    background: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933) no-repeat center center;
     box-shadow: 10px 10px 5px #75664e;
 }
 
@@ -270,23 +270,23 @@
 
 /*----------beers---------*/
 
-.beer-image-container {
+.beer-image-container { /*-- Thanks to https://www.w3schools.com/howto/howto_css_image_overlay_title.asp for this code --*/
     height: 300px;
     max-width:250px;
     position: relative;
     margin: 20px;
 }
 
-.beer-image {
+.beer-image { /*-- Thanks to https://www.w3schools.com/howto/howto_css_image_overlay_title.asp for this code --*/
     width: 100%;
     height: 300px;
     object-fit:cover;
     padding: 0.5rem;
-    background-image: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933);
+    background: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933) no-repeat bottom center;
     box-shadow: 10px 10px 5px #75664e;
 }
 
-.overlay {
+.overlay { /*-- Thanks to https://www.w3schools.com/howto/howto_css_image_overlay_title.asp for this code --*/
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
@@ -310,7 +310,7 @@
     object-fit: cover;
 }
 
-.beers-hero-image {
+.beers-hero-image { /*-- Thanks to https://css-tricks.com/perfect-full-page-background-image/ for this code --*/
     height:50vh;
     background: url('../images/beer-hero-image.jpg') no-repeat center center; 
     -webkit-background-size: cover;
@@ -329,7 +329,7 @@
 
 /*----------breweries----------*/
 
-.brewery-hero-image {
+.brewery-hero-image { /*-- Thanks to https://css-tricks.com/perfect-full-page-background-image/ for this code --*/
     height:50vh;
     background: url('../images/brewery-hero-image.jpg') no-repeat center center; 
     -webkit-background-size: cover;
@@ -382,7 +382,7 @@
 
 /*--------Contact Us---------*/
 
-.contact-hero-image {
+.contact-hero-image { /*-- Thanks to https://css-tricks.com/perfect-full-page-background-image/ for this code --*/
     height:50vh;
     background: url('../images/contact-hero-image.jpg') no-repeat center bottom; 
     -webkit-background-size: cover;
