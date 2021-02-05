@@ -186,6 +186,8 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
     - Techsini has been utilised for website mockup. 
 - [Grammarly](https://app.grammarly.com/ddocs/1040510993)
     - Grammarly has been used across the website to fix spelling errors and grammar.
+- [Autoprefixer](https://autoprefixer.github.io/)
+    - Autoprefixer has been utilized to enhance compatibility with browsers. 
 
 # Testing 
 
@@ -305,6 +307,8 @@ These simulated tests only show the home page logo, navbar, and jumbotron as thi
 - After deploying the project and viewing on ipad / iphone, when I opened and closed the sign-up modals a blue outline appeared, which would show until the page was refreshed. 
     - Error: This appears to have come from bootstrap styling. 
     - Fix: I found the solution on stack overflow to change the :focus {outline:none}. This removed the blue outline after the modal was closed. 
+- After deploying the project and viewing on ipad / iphone, the jumbotron here image was scaling incorrectly. The image was zoomed too far in. 
+    - Fix: I found the solution on stack overflow to change the background-attachment to scroll. The image is now displaying correctly on all devices. 
 
 
 ## Known Bugs
@@ -379,6 +383,8 @@ By forking the GitHub Repository to make a copy of the original repository, we c
     - Social Media Icons in footer and logo row.
 - [Stackoverflow](https://stackoverflow.com/questions/34098307/bootstrap-blue-outline-when-modal-is-closed)
     - Aided to remove blue outline when the sign up modal is closed. 
+- [Stackoverflow](https://stackoverflow.com/questions/19795830/background-image-not-scaling-properly-on-ios)
+    - Aided in the scaling issues of the jumbotron image on IOS devices. 
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
     - Bootstrap has been used throughout the project to make the site responsive using Bootstraps Grid system and add components from their library.
 - [Fontawesome](https://fontawesome.com/icons?d=gallery)

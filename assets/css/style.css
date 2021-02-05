@@ -166,8 +166,9 @@
 
 .hero-image { /*-- Thanks to Matt Rudge at Code Institue for this code --*/
     height:100vh;
-    background: url('../images/beer-tap-background.jpg') no-repeat center center fixed;
+    background: url('../images/beer-tap-background.jpg') no-repeat center center;
     background-size: cover;
+    background-attachment: scroll; /*-- Thanks to https://stackoverflow.com/questions/19795830/background-image-not-scaling-properly-on-ios for this code --*/
 
     display: -webkit-box;
 
@@ -517,7 +518,7 @@ footer {
     list-style: none;
 }
 
-.remove-outline:focus {
+.remove-outline:focus { /*-- Thanks to https://stackoverflow.com/questions/34098307/bootstrap-blue-outline-when-modal-is-closed for this code --*/
     outline:none;
 }
 
