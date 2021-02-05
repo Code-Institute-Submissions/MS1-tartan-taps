@@ -315,9 +315,9 @@ As this was my first website design I was reasonably content with the results, h
 
 Below shows the outcome of the changes made.
 
-![Lighthouse first try](documentation/testing/lighthouse/lighthouse-review.png)
+![Lighthouse second try](documentation/testing/lighthouse/lighthouse-final.png)
 
-Despite reducing the image sizes further the changes I have made in order to increase the SEO, has reduced the performance of the website. 
+Despite reducing the image sizes further the changes I have made in order to increase the SEO, has reduced the performance of the website slightly. 
 
 For the scope of this project I am happy with the results from Lighthouse, however I would like to re-visit performance and best practices to achieve a higher score. 
 
