@@ -4,7 +4,7 @@
 
 View the repository in GitHub [here](https://github.com/Tawnygoody/MS1-tartan-taps)
 
-View the live project [here](https://tawnygoody.github.io/MS1-tartan-taps/beers.html)
+View the live project [here](https://tawnygoody.github.io/MS1-tartan-taps/index.html)
 
 # Contents
 
