@@ -337,7 +337,7 @@ The project has been deployed on GitHub Pages using the following method:
 1. Log into GitHub and locate the [repository](https://github.com/Tawnygoody/MS1-tartan-taps) you wish to deploy.
 2. At the top of the repository click on the settings link. 
 3. Scroll down the setting pages until you reach the section titled "GitHub Pages". 
-4. Under the "Source" subheading click the dropdown labelled "None" and select master.
+4. Under the "Source" subheading click the dropdown labelled "None", select master and click save.
 5. The page will then automatically refresh (it can take a while)
 6. When you scroll back down through the page you will see a green bar with a tick showing that your site has been published in the "GitHub Pages" section.
 

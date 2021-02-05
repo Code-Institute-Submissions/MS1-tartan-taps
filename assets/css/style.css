@@ -266,7 +266,7 @@
 /*----------beers---------*/
 
 .beer-image-container { /*-- Thanks to https://www.w3schools.com/howto/howto_css_image_overlay_title.asp for this code --*/
-    height: 300px;
+    height: 350px;
     max-width:250px;
     position: relative;
     margin: 20px;
@@ -274,7 +274,7 @@
 
 .beer-image { /*-- Thanks to https://www.w3schools.com/howto/howto_css_image_overlay_title.asp for this code --*/
     width: 100%;
-    height: 300px;
+    height: 350px;
     object-fit:cover;
     padding: 0.5rem;
     background: url(https://cdn.shopify.com/s/files/1/1728/1943/products/l18911_1024x1024.jpg?v=1504652933) no-repeat bottom center;
@@ -293,6 +293,7 @@
   color: white;
   padding: 20px;
   text-align: center;
+  height: 350px;
 }
 
 .beer-image-container:hover .overlay {
