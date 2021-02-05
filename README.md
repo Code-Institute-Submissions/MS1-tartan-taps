@@ -1,6 +1,6 @@
 <h1 align="center">Tartan Taps Website</h1>
 
-![Mock Up Image](documentation/testing/device-testing/mock-up.png)
+![Mock Up Image](documentation/testing/device-testing/techsini-mock.png)
 
 # Contents
 
@@ -270,6 +270,7 @@ Google developer tools was used throughout the project to test the responsivenes
 - Pixel 2: [Portrait](documentation/testing/device-testing/pixel-p.png), [Landscape](documentation/testing/device-testing/pixel-l.png)
 - Surface Duo: [Portrait](documentation/testing/device-testing/surface-duo-p.png), [Landscape](documentation/testing/device-testing/surface-duo-l.png)
 - Galaxy Fold: [Portrait](documentation/testing/device-testing/fold-p.png), [Landscape](documentation/testing/device-testing/fold-l.png)
+- Iphone 4: [Portrait](documentation/testing/device-testing/iphone4-p.png), [Landscape](documentation/testing/device-testing/iphone4-l.png)
 
 These simulated tests only show the home page logo, navbar, and jumbotron as this is where I experienced most of issues due to the jumbotron's viewport height. As can be seen there is no overlapping and the website is responsive for every page on all device sizes listed. 
 
@@ -293,6 +294,8 @@ These simulated tests only show the home page logo, navbar, and jumbotron as thi
     - Fix: Max-width media queries for 280px, have been added which has reduced the size of the cards so they are no longer wider than the screen width. As the width of the cards have reduced this meant that text and visit website buttons were pushed out of the cards on the Breweries page. I have corrected this with an additional media query, changing the height to auto on the card body.
 - Although not a bug I had a lot of repeated CSS for font-family and color due to lack of project planning at the beginning of the project.
     - Fix: I created 4 classes for text content and styled them in CSS. This resulted in 50 lines of repeated CSS removed from the style.css.
+- After viewing the home page layout on "Am I responsive" I wasn't happy with how far down the screen the jumbotron text appeared, and noticed that on iphone 4 the jumbotron text was overlapping the navbar. 
+    - Fix: Changed the size of the jumbotron from 115vh to 100vh, to push the text back up the screen, and added additional media queries to ensure the jumbotron text does not overlap the navbar on different devices. 
 
 
 ## Known Bugs
@@ -320,10 +323,36 @@ For the scope of this project I am happy with the results from Lighthouse, howev
 
 
 # Deployment
+
 ## Github pages
+
+The project has been deployed on GitHub Pages using the following method:
+
+1. Log into GitHub and locate the [repository](https://github.com/Tawnygoody/MS1-tartan-taps) you wish to deploy.
+2. At the top of the repository click on the settings link. 
+3. Scroll down the setting pages until you reach the section titled "GitHub Pages". 
+4. Under the "Source" subheading click the dropdown labelled "None" and select master.
+5. The page will then automatically refresh (it can take a while)
+6. When you scroll back down through the page you will see a green bar with a tick showing that your site has been published in the "GitHub Pages" section.
+
+
 ## Forking the GitHub Repository
+
+By forking the GitHub Repository to make a copy of the original repository, we can make changes without it affecting the original repository, by following these steps:
+
+1. Log into GitHub and locate the [repository](https://github.com/Tawnygoody/MS1-tartan-taps) you wish to fork.
+2. At the top-right of the repository underneath the navbar, click the "Fork" button.
+3. You should now have a copy of the original repository in your account. 
+
+
+
 ## Making a Local Clone
 
+1. Log into GitHub and locate the [repository](https://github.com/Tawnygoody/MS1-tartan-taps) you wish to clone.
+2. Click the dropdown labelled "Code" to the left of the green "Gitpod" button and copy the link shown. 
+3. Open Git Bash.
+4. Change to the location where you want the cloned directory to be made.
+5. Type "gitclone" and then paste the URL you copied in step 2. 
 
 # Credits
 ## Code

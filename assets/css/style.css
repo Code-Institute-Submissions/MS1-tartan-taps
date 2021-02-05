@@ -156,7 +156,7 @@
 }
 
 .hero-image { /*-- Thanks to Matt Rudge at Code Institue for this code --*/
-    height:115vh;
+    height:100vh;
     background: url('../images/beer-tap-background.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -487,13 +487,31 @@ footer {
 
 /*--------Media Queries---------*/
 
-@media screen and (max-height: 320px) {
+@media screen and (max-height: 620px) {
+.hero-image {
+    height: 110vh;
+}
+}
+
+@media screen and (max-height: 570px) {
+.hero-image {
+    height: 120vh;
+}
+}
+
+@media screen and (max-height: 510px) {
 .hero-image {
     height: 130vh;
 }
 }
 
-@media screen and (max-height: 280px) {
+@media screen and (max-height: 320px) {
+.hero-image {
+    height: 150vh;
+}
+}
+
+@media screen and (max-width: 310px) {
 .hero-image {
     height: 140vh;
 }
