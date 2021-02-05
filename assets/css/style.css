@@ -168,7 +168,7 @@
     height:100vh;
     background: url('../images/beer-tap-background.jpg') no-repeat center center;
     background-size: cover;
-    background-attachment: scroll; /*-- Thanks to https://stackoverflow.com/questions/19795830/background-image-not-scaling-properly-on-ios for this code --*/
+    background-attachment: scroll;
 
     display: -webkit-box;
 
