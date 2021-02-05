@@ -14,7 +14,7 @@
     background-color: #dcd4c5;
 }
 
-.content-background-gradient {
+.content-background-gradient { /*-- Thanks to https://www.w3schools.com/css/css3_gradients.asp for this code --*/
     background-image: linear-gradient(to bottom right, #fff, #B09E80);
 }
 

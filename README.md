@@ -2,12 +2,16 @@
 
 ![Mock Up Image](documentation/testing/device-testing/techsini-mock.png)
 
+View the repository in GitHub [here](https://github.com/Tawnygoody/MS1-tartan-taps)
+
+View the live project [here]()
+
 # Contents
 
 - [User Experience (UX)](#user-experience-(ux))
     - [Strategy](#strategy)
     - [Scope](#scope)
-    - [Strucure](#structure)
+    - [Structure](#structure)
     - [Skeleton](#skeleton)
     - [Surface](#surface)
 - [Technologies Used](#technologies-used)
@@ -41,16 +45,16 @@
 
 ## Strategy
 
-The business is a beer subscription service called Tartan Taps, which has teamed up with some of Scotland's finest craft and micro breweries, to deliver a variety of beers to the customers doorstep. 
+The business is a beer subscription service called Tartan Taps, which has teamed up with some of Scotland's finest craft and microbreweries, to deliver a variety of beers to the customer's doorstep. 
 
-In this section I have established user stories which will dictate the website functionality. The aim is to provide information on a selection of quality, great tasting craft beers, alongside their breweries, in order to gain subscribers. 
+In this section, I have established user stories which will dictate the website functionality. The aim is to provide information on a selection of quality, great-tasting craft beers, alongside their breweries, in order to gain subscribers. 
 
 - ### User Stories
     - #### First Time Visitor Goals
         1. As a First Time Visitor, I want to know at a glance the main purpose of Tartan Taps and what it can offer. 
         2. As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
         3. As a First Time Visitor, I want to locate their Social Media accounts, to determine how trusted they are. 
-        4. As a First Time Visitor, I want to see prices in order to determine whether this a suitable product for purchase. 
+        4. As a First Time Visitor, I want to see prices to determine whether this a suitable product for purchase. 
     - #### Returning Visitor Goals
         1. As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
         2. As a Returning Visitor, I want to have options to get in contact with Tartan Taps, with any queries or questions I may have. 
@@ -63,14 +67,14 @@ In this section I have established user stories which will dictate the website f
 
 ## Scope
 
-Based on the strategy goals that have been established, I have decided to incorporate a phased approach prioritising the most important information to less feasible concepts. 
+Based on the strategic goals that have been established, I have decided to incorporate a phased approach prioritising the most important information to less feasible concepts. 
 This will allow me to manage my workload and build upon any feedback that I receive during the project. 
 
-To begin with the first phase would be to create a minimum viable product (MVP). 
+To begin with, the first phase would be to create a minimum viable product (MVP). 
 
 - ### Phase 1:
     - A home page setting out what the website offers. 
-    - A beer page showcasing what beers are avaialble. 
+    - A beer page showcasing what beers are available. 
     - A breweries page to find out more information about each brewery. 
     - A Customise your crates page. 
     - A contact us page. 
@@ -97,13 +101,13 @@ I would then implement back end technologies (knowledge not yet gained).
         - Tartan will be used in a minimalist way to be in keeping with the company name. 
     - #### Typography
         - Cormorant SC will be used for headings and important information, in keeping with the company logo. Roboto will be utilised for the website content. Sans-serif will be used as a fallback, should there be an error with imported fonts. 
-        - The text will be consistent across all pages. Titles and heading will be centered, and as there is no large bodies of text content can also be centered. 
+        - The text will be consistent across all pages. Titles and heading will be centered, and as there are no large bodies of text content can also be centered. 
     - #### Imagery
         - Utilising bootstraps Jumbotron the home page hero image is designed to catch the user's attention. It has to be contemporary, striking, and directly related to what the company offers.
-        - Images must be of a high enough quality that as the images scale according to different devices they do not become pixalated.
+        - Images must be of a high enough quality that as the images scale according to different devices they do not become pixelated.
 
 ## Skeleton
-Below you can find links to the initial draft of the wireframes I've created for each individual page, showing how I would like the page to be structured, and how responsive the website is to different devices.
+Below you can find links to the initial draft of the wireframes I've created for each page, showing how I would like the page to be structured, and how responsive the website is to different devices.
 
 - ### Wireframes
     I have created wireframes using Balsamiq for desktop, tablet and mobile devices. 
@@ -116,9 +120,9 @@ Below you can find links to the initial draft of the wireframes I've created for
     - Additional Information Wireframe - [View](documentation/wireframes/additional-information-modal-wireframe.pdf) 
 
 As the project has progressed there have been quite a few changes to what was originally laid out in the wireframes.
-These changes have been made to improve the aethetics and functionality of the website, based on feedback and my own opinion. 
+These changes have been made to improve the aesthetics and functionality of the website, based on feedback and my own opinion. 
 
-Looking back I definately feel my project would of benefited from further planning at the beginning on the project.
+Looking back I definitely feel my project would have benefited from further planning at the beginning of the project.
 Having only just learnt HTML & CSS, and with a willingness to begin coding, some aspects of project planning may have been overlooked.
 
 ## Surface
@@ -127,27 +131,27 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
         - Logo - Logo row will include social media links, a "Sign up / Sign In" modal, and the company logo. Social media links and modal will not display on smaller devices, and logo will also act as a link back to the home page.
         - Navbar - Toggler to a hamburger menu on smaller devices. Current page will be identified by underlining the page link, and text will be coloured white when active. 
         - Footer - Split into 3 sections - contact information, social media, and "Sign Up / Sign In" modal. Wireframes show sign up modal to not display on smaller devices, however this has been included in the project, so there is an option to sign up on all pages regardless of device size. Social media links to open in a new tab. 
-        - Differing fonts between headings and content, aids in making the page look less monotonous. Cormoant SC capitalisation of letters draws the attention of the user. 
+        - Differing fonts between headings and content, aids in making the page look less monotonous. Cormorant SC capitalisation of letters draws the attention of the user. 
     - #### Home page
-        - Jumbotron - Striking image to draw the user's attention with information relating to company. The image will have a darker overlay to allow the text to stand out. 
+        - Jumbotron - Striking image to draw the user's attention with information relating to the company. The image will have a darker overlay to allow the text to stand out. 
         - Reviews & How it works - Circular images used to add variety, and different background colour used to identify different sections. 
         - Bootstrap Cards - Aid the user with navigation through visual images and brief descriptions. 
     - #### Beers Page
         - Dropdown option on the navbar allows the user to quickly move to different sections within beers page. Especially important when using smaller devices as a large amount of scrolling required without navigation to different sections. 
-        - Beer description overlay allows for a subtle user interaction, and removes the need for large amounts of text to be visible. 
+        - Beer description overlay allows for a subtle user interaction and removes the need for large amounts of text to be visible. 
         - Differing background colours to help identify different sections. 
-        - Half page hero image ties in with the bootstrap cards seen on the home page. 
+        - Half-page hero image ties in with the bootstrap cards seen on the home page. 
     - #### Breweries Page
         - Bootstrap Cards - Image of each brewery logo to tie in with the logos seen on the beer description overlay, and a brief description about each brewery, with a link to each brewery opening in a new tab. 
         - Differing background colours to help identify different sections. 
-        - Half page hero image ties in with the bootstrap cards seen on the home page. 
+        - Half-page hero image ties in with the bootstrap cards seen on the home page. 
     - #### Customise Your Crate Page
         - Further information modal allows user interactions and avoids large amounts of text. 
-        - Simple and concise form to entise the user. This is important as large forms which take time to complete can deter the user. 
+        - Simple and concise form to entice the user. This is important as large forms which take time to complete can deter the user. 
     - #### Contact Us Page
-        - FAQ's section with interactive dropdowns, helps to make the content appear smaller. 
+        - FAQ's section with interactive dropdowns helps to make the content appear smaller. 
         - Simple contact us form allows the user to ask any questions not already covered by FAQ's. 
-        - Embedded Google Maps allows for futher interaction to see exactly where Tartan Taps is located. 
+        - Embedded Google Maps allows for further interaction to see exactly where Tartan Taps is located. 
 
 # Technologies used
 
@@ -163,23 +167,25 @@ Having only just learnt HTML & CSS, and with a willingness to begin coding, some
 - [Hover.css](https://ianlunn.github.io/Hover/) 
     - Hover.css was used in the navbar and the navbar dropdown links when being hovered over. 
 - [Google fonts](https://fonts.google.com/)
-    - Google Fonts was used to import the "Cormarant SC" and "Roboto" fonts used across the website.
+    - Google Fonts was used to import the "Cormorant SC" and "Roboto" fonts used across the website.
 - [Fontawesome](https://fontawesome.com/icons?d=gallery)
     - Font awesome was used to obtain the social media icons, stars for review section, and the beer glass for the Sign Up / Sign In Modal in the footer. 
 - [Google Developer Tools](https://developers.google.com/web/tools) 
     - Used as a method of fixing bugs, and testing the responsiveness on different devices. 
 - [Github](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+    - GitHub is used to store the project code after being pushed from Git.
 - [Git](https://git-scm.com/) 
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [Balsamiq](https://balsamiq.com/)
-    - Balsamiq was used to create the the wireframes, seen at the skeleton section, during the design process.
+    - Balsamiq was used to create the wireframes, seen at the skeleton section, during the design process.
 - [Reduce Images](https://www.reduceimages.com/)
-    - Reduce Images was used to re-size some of the websites images in order to improve performance. 
+    - Reduce Images was used to re-size some of the websites images to improve performance. 
 - [Sauce Labs](https://saucelabs.com/)
-    - Sauce labs was utilised to complete cross browser testing. 
+    - Sauce Labs was utilised to complete cross-browser testing. 
 - [Techsini](https://techsini.com/multi-mockup/)
-    - Techsini has been utilisted for website mockup's. 
+    - Techsini has been utilised for website mockup. 
+- [Grammarly](https://app.grammarly.com/ddocs/1040510993)
+    - Grammarly has been used across the website to fix spelling errors and grammar.
 
 # Testing 
 
@@ -202,27 +208,27 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
     - Below the jumbotron on the home page, there is a section for "How it Works". This is made clear using imagery and a brief description. [View here](documentation/testing/first-user/how-it-works.png)
 
 2. #### As a First Time Visitor, I want to be able to navigate through the website intuitively, to seek the information I require. 
-    - At the top of each page there is a clear and easy to read navigation bar to take the user to each of the different pages, which compresses to a burger menu on smaller devices. The current page is highlighted by underlining each link, and the text is changed to white. [View here](documentation/testing/first-user/navbar.png)
+    - At the top of each page, there is a clear and easy to read navigation bar to take the user to each of the different pages, which compresses to a burger menu on smaller devices. The current page is highlighted by underlining each link, and the text is changed to white. [View here](documentation/testing/first-user/navbar.png)
     - The logo will take the user back to the home page when clicked. 
-    - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page in order to view another page. [View here](documentation/testing//first-user/navbar-sticky.png)
-    - Dropdown option on beers page allowing the user to quickly manouvre to different section on that page. [View here](documentation/testing/first-user/navbar-dropdown.png)
+    - Using bootstraps "sticky-top" class the navbar will remain at the top of screen, when scrolling through the site, to avoid the need to scroll to the top of the page to view another page. [View here](documentation/testing//first-user/navbar-sticky.png)
+    - Dropdown option on beers page allowing the user to quickly manoeuvre to a different section on that page. [View here](documentation/testing/first-user/navbar-dropdown.png)
 
 3. #### As a First Time Visitor, I want to locate their Social Media accounts, to determine how trusted they are.
-    - On larger devices only social media icons (Facebook, Twitter, Instagram, Youtube) can be located to the left hand side of the logo. [View here](documentation/testing/first-user/social-logo.png)
-    - On all device sizes social media icons can be locted in the footer of the site. All links to social media accounts will open in a different tab, to ensure the user does not lose access to the website. [View here](documentation/testing/first-user/social.png)
+    - On larger devices, only social media icons (Facebook, Twitter, Instagram, Youtube) can be located to the left hand side of the logo. [View here](documentation/testing/first-user/social-logo.png)
+    - On all device sizes, social media icons can be located in the footer of the site. All links to social media accounts will open in a different tab, to ensure the user does not lose access to the website. [View here](documentation/testing/first-user/social.png)
 
-4. #### As a First Time Visitor, I want to see prices in order to determine whether this a suitable product for purchase.
-    - The home page jumbotron shows a minimum price subscription, and a first month free message is visible in bold writing to entise the user. [View here](documentation/testing/first-user/home-price.png)
+4. #### As a First Time Visitor, I want to see prices to determine whether this a suitable product for purchase.
+    - The home page jumbotron shows a minimum price subscription, and a first month free message is visible in bold writing to entice the user. [View here](documentation/testing/first-user/home-price.png)
     - Further pricing options are available on the customise your crate page using a dropdown form. [View here](documentation/testing/first-user/prices.png)
 
 ### Testing Returning Visitor Goals
 1. #### As a Returning Visitor, I want to be able to easily sign up to start receiving my subscription.
-    - On the home screen on larger devices the user can sign up in three places. Sign up button in the jumbotron, Sign up / Sign in to the right of the logo and a Sign up / Sign in icon in the the footer. All will take the user to the same modal. [View here](documentation/testing/returning-user/sign-up.png)
-    - On smaller devices the Sign up / Sign in option to the right of the logo is removed. The user can sign up from any page using the option in the footer. [View here](documentation/testing/returning-user/sign-up-footer.png)
+    - On the home screen on larger devices, the user can sign up in three places. Sign up button in the jumbotron, Sign up / Sign in to the right of the logo and a Sign up / Sign in icon in the footer. All will take the user to the same modal. [View here](documentation/testing/returning-user/sign-up.png)
+    - On smaller devices, the Sign up / Sign in option to the right of the logo is removed. The user can sign up from any page using the option in the footer. [View here](documentation/testing/returning-user/sign-up-footer.png)
 
 2. #### As a Returning Visitor, I want to have options to get in contact with Tartan Taps, with any queries or questions I may have. 
     - First option for a user to contact Tartan Taps can be located in the footer of the page, with an email address and telephone number. This appears on all device sizes. [View here](documentation/testing/returning-user/contact-us.png)
-    - There is also a dedicated page to contact the company. Within this are FAQ's - if these do not fulfil the users queries then a contact us form is available for additional enquiries. [View here](documentation/testing/returning-user/faqs-enquiry.png)
+    - There is also a dedicated page to contact the company. Within this are FAQ's - if these do not fulfil the users' queries then a contact us form is available for additional enquiries. [View here](documentation/testing/returning-user/faqs-enquiry.png)
 
 3. #### As a Returning Visitor, I want to see customer reviews.
     - The home page has a section dedicated to customer reviews. I have situated this directly below the jumbotron, so the user knows the company has a good reputation. Circular images have been used for variety, which do not display on smaller devices. [View here](documentation/testing/returning-user/reviews.png)
@@ -230,7 +236,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
 ### Testing Frequent User Goals
 1. #### As a Frequent User, I want to see what beers are available and compare them against my delivery. 
     - The beers page will show all the beers that the company offers. A brief description of each beer can be seen on the image content overlay. Descriptions have been taken from the individual breweries and edited to suit the needs of the project. [View here](documentation/testing/frequent-user/beer-overlay.png)
-    - Due to the scope of the project it has been decided that it is not necessary to show any beers which may not be in stock. 
+    - Due to the scope of the project, it has been decided that it is not necessary to show any beers which may not be in stock. 
 
 2. #### As a Frequent User, I want to find information about the breweries, from where the beers came. 
     - A brief description / history of the brewery can be located on the breweries page, which has been split into four sections for different regions in Scotland. A link to each brewery can be found on the brewery cards which will open in a new tab. [View here](documentation/testing/frequent-user/brewery-cards.png)
@@ -240,7 +246,7 @@ The [W3C Markup Validator](https://validator.w3.org/) and [W3C CSS Validator](ht
     - I have addressed this in the FAQ's section on the contact us page, with a dropdown response explaining how this is achieved. [View here](documentation/testing/frequent-user/cancel.png)
 
 4. #### As a Frequent User, I want to be able to change the amount of beers I order each month, and when I receive them.
-    - At this stage this is addressed in the FAQ's section on the contact us page. [View here.](documentation/testing/frequent-user/edit-order.png) In further releases I would create an page / modal that would allow the user to edit their order online.
+    - At this stage, this is addressed in the FAQ's section on the contact us page. [View here.](documentation/testing/frequent-user/edit-order.png) In further releases, I would create an page / modal that would allow the user to edit their order online.
 
 ## Full Testing
 
@@ -249,12 +255,12 @@ Testing was completed using the following steps on all interactive elements of t
 ## Further Testing
 
 ### Browser Compatibility
-Sauce labs was used in order to test the website across different browsers. The following browsers were tested:
+Sauce Labs was used to test the website across different browsers. The following browsers were tested:
 - Google chrome - successful
 - Microsoft Edge - successful
 - Mozilla Firefox - successful
 - Safari worked however it would not allow you to choose a date using the datepicker on the Customise Your Crate page - [seen here](documentation/testing/device-testing/safari-error.png).
-- Internet Explorer 11 was the worst experience and more or less broke the website. Images were stretched, dropdown for the FAQ's were broken, text was off-center, and the jumbotron text was completely out of alignment - [seen here](documentation/testing/device-testing/ie11-error.png)
+- Internet Explorer 11 was the worst experience and more or less broke the website. Images were stretched, dropdown for the FAQ's were broken, text was off-centre, and the jumbotron text was completely out of alignment - [seen here](documentation/testing/device-testing/ie11-error.png)
 
 
 
@@ -272,29 +278,29 @@ Google developer tools was used throughout the project to test the responsivenes
 - Galaxy Fold: [Portrait](documentation/testing/device-testing/fold-p.png), [Landscape](documentation/testing/device-testing/fold-l.png)
 - Iphone 4: [Portrait](documentation/testing/device-testing/iphone4-p.png), [Landscape](documentation/testing/device-testing/iphone4-l.png)
 
-These simulated tests only show the home page logo, navbar, and jumbotron as this is where I experienced most of issues due to the jumbotron's viewport height. As can be seen there is no overlapping and the website is responsive for every page on all device sizes listed. 
+These simulated tests only show the home page logo, navbar, and jumbotron as this is where I experienced most of issues due to the jumbotron's viewport height. As can be seen, there is no overlapping and the website is responsive for every page on all device sizes listed. 
 
 
 ## Solved Bugs
 - The burger menu in the navbar for smaller devices would not drop down to reveal the nav-links.
     - Error: I did not have the JS popper in the correct position in the HTML docs.
-    - Fix: to correct this I added the script after the the footer and any modals, and before the body closing tag.
+    - Fix: to correct this I added the script after the footer and any modals, and before the body closing tag.
 - I wanted to add a sticky-top class to the navbar so that when it was scrolled past it would stick to the top of the screen. 
     - Error: I originally had the navbar in the header section, which was inheriting properties preventing the navbar from sticking. 
-    - Fix: I moved the navbar outside the header class, and added a sticky-top class from bootstrap which sticks to the top of the page when scrolled past.
+    - Fix: I moved the navbar outside the header class and added a sticky-top class from bootstrap which sticks to the top of the page when scrolled past.
 - The home page cards when moving from small to medium devices would display on the same row and overlap one another. 
-    - Error: The col class was orignally written as col-md-4, so on medium devices 3 cards would try to fit on the same row resulting in overlapping. 
+    - Error: The col class was originally written as col-md-4, so on medium devices, 3 cards would try to fit on the same row resulting in overlapping. 
     - Fix: I corrected this to col-md-6 so that only 2 cards would display on one row on medium devices. 
     - Note: This was a common error until I got a better grasp of bootstrap's grid system. 
-- Jumbotron text "New Year New Beer" was overlapping the navbar on Iphone 5/SE and Galaxy Fold, when in a horizontal position on Google Dev Tools. 
+- Jumbotron text "New Year New Beer" was overlapping the navbar on iphone 5/SE and Galaxy Fold, when in a horizontal position on Google Dev Tools. 
     - Error: As the jumbotron's height is measured by viewport height there isn't sufficient room for all the jumbotron text to fit.
-    - Fix: Max-height media queries for 320px (iphone 5 height horizontally) & 280px (Galaxy Fold height horizontally) have been added to increase the height of the jumbotron to include all the text. I could of omitted some of the jumbotron text however I did not want to do this, as it would affect the first user goal to know at a glance what the company offers.
+    - Fix: Max-height media queries for 320px (iphone 5 height horizontally) & 280px (Galaxy Fold height horizontally) have been added to increase the height of the jumbotron to include all the text. I could have omitted some of the jumbotron text however I did not want to do this, as it would affect the first user goal to know at a glance what the company offers.
 - Home, Breweries and Customise Your crate page "cards" did not fit when testing the responsiveness on Galaxy Fold platform. 
     - Error: The width of the cards was wider than the screen width of the device. 
     - Fix: Max-width media queries for 280px, have been added which has reduced the size of the cards so they are no longer wider than the screen width. As the width of the cards have reduced this meant that text and visit website buttons were pushed out of the cards on the Breweries page. I have corrected this with an additional media query, changing the height to auto on the card body.
 - Although not a bug I had a lot of repeated CSS for font-family and color due to lack of project planning at the beginning of the project.
     - Fix: I created 4 classes for text content and styled them in CSS. This resulted in 50 lines of repeated CSS removed from the style.css.
-- After viewing the home page layout on "Am I responsive" I wasn't happy with how far down the screen the jumbotron text appeared, and noticed that on iphone 4 the jumbotron text was overlapping the navbar. 
+- After viewing the home page layout on "Am I responsive" I wasn't happy with how far down the screen the jumbotron text appeared and noticed that on iphone 4 the jumbotron text was overlapping the navbar. 
     - Fix: Changed the size of the jumbotron from 115vh to 100vh, to push the text back up the screen, and added additional media queries to ensure the jumbotron text does not overlap the navbar on different devices. 
 
 
@@ -304,7 +310,7 @@ These simulated tests only show the home page logo, navbar, and jumbotron as thi
 
 
 ## Lighthouse
-I tested my website using Lighthouse is Google Developement Tools, and after some image re-sizing this is the result I got. 
+I tested my website using Lighthouse is Google Development Tools, and after some image re-sizing, this is the result I got. 
 
 ![Lighthouse first try](documentation/testing/lighthouse/lighthouse.png)
 
@@ -317,9 +323,9 @@ Below shows the outcome of the changes made.
 
 ![Lighthouse second try](documentation/testing/lighthouse/lighthouse-final.png)
 
-Despite reducing the image sizes further, the changes I have made in order to increase the SEO, has reduced the performance of the website slightly. 
+Despite reducing the image sizes further, the changes I have made to increase the SEO, has reduced the performance of the website slightly. 
 
-For the scope of this project I am happy with the results from Lighthouse, however I would like to re-visit performance and best practices to achieve a higher score. 
+For the scope of this project, I am happy with the results from Lighthouse, however I would like to re-visit performance and best practices to achieve a higher score. 
 
 
 # Deployment
@@ -360,6 +366,8 @@ By forking the GitHub Repository to make a copy of the original repository, we c
     - Helping to find a solution to get lines either side of the TT on the logo.
 - [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay_title.asp) 
     - Provided the code to create a content overlay for the beer images. 
+- [W3Schools](https://www.w3schools.com/css/css3_gradients.asp) 
+    - Provided the code for a gradient background on the "how-it-works" section.
 - [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
     - Aided with background images for beers, breweries, and contact us pages.
 - [Matt Rudge, Code Institute](https://codeinstitute.net/)
@@ -367,9 +375,9 @@ By forking the GitHub Repository to make a copy of the original repository, we c
     - Dark overlay which has been applied to jumbotron image and hero images.
     - Social Media Icons in footer and logo row.
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-    - Bootstrap has been used throughout the project to make the site responsive using Bootstraps Grid system, and add components from their library.
+    - Bootstrap has been used throughout the project to make the site responsive using Bootstraps Grid system and add components from their library.
 - [Fontawesome](https://fontawesome.com/icons?d=gallery)
-    - Fontawesome has been utilised for social media icons, reviews stars, and the beer glass sign up / sign in modal.
+    - Fontawesome has been utilised for social media icons, reviews stars, further information modal, and the beer glass sign up / sign in modal.
 
 ## Content
 Due to the nature of the website, I have relied heavily on the individual breweries for beer descriptions and brewery description / history. Some of the content has been edited for the needs of the website. 
