@@ -110,7 +110,7 @@ Below you can find links to the initial draft of the wireframes I've created for
     - Home Page Wireframe - [View](documentation/wireframes/home-page-wireframe.pdf)
     - Beers Wireframe - [View](documentation/wireframes/beer-wireframe.pdf)
     - Breweries Wireframe - [View](documentation/wireframes/breweries-wireframe.pdf)
-    - Customize Your Crate Wireframe - [View](documentation/wireframes/crates-wireframe.pdf)
+    - Customise Your Crate Wireframe - [View](documentation/wireframes/crates-wireframe.pdf)
     - Contact Us Wireframe - [View](documentation/wireframes/contact-us-wireframe.pdf)
     - Sign Up Modal Wireframe - [View](documentation/wireframes/sign-up-modal-wireframe.pdf)
     - Additional Information Wireframe - [View](documentation/wireframes/additional-information-modal-wireframe.pdf) 
@@ -317,7 +317,7 @@ Below shows the outcome of the changes made.
 
 ![Lighthouse second try](documentation/testing/lighthouse/lighthouse-final.png)
 
-Despite reducing the image sizes further the changes I have made in order to increase the SEO, has reduced the performance of the website slightly. 
+Despite reducing the image sizes further, the changes I have made in order to increase the SEO, has reduced the performance of the website slightly. 
 
 For the scope of this project I am happy with the results from Lighthouse, however I would like to re-visit performance and best practices to achieve a higher score. 
 
