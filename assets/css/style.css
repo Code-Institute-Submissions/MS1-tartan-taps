@@ -517,7 +517,7 @@ footer {
     list-style: none;
 }
 
-.modal:focus {
+.remove-outline:focus {
     outline:none;
 }
 

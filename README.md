@@ -301,7 +301,10 @@ These simulated tests only show the home page logo, navbar, and jumbotron as thi
 - Although not a bug I had a lot of repeated CSS for font-family and color due to lack of project planning at the beginning of the project.
     - Fix: I created 4 classes for text content and styled them in CSS. This resulted in 50 lines of repeated CSS removed from the style.css.
 - After viewing the home page layout on "Am I responsive" I wasn't happy with how far down the screen the jumbotron text appeared and noticed that on iphone 4 the jumbotron text was overlapping the navbar. 
-    - Fix: Changed the size of the jumbotron from 115vh to 100vh, to push the text back up the screen, and added additional media queries to ensure the jumbotron text does not overlap the navbar on different devices. 
+    - Fix: Changed the size of the jumbotron from 115vh to 100vh, to push the text back up the screen, and added additional media queries to ensure the jumbotron text does not overlap the navbar on different devices.
+- After deploying the project and viewing on ipad / iphone, when I opened and closed the sign-up modals a blue outline appeared, which would show until the page was refreshed. 
+    - Error: This appears to have come from bootstrap styling. 
+    - Fix: I found the solution on stack overflow to change the :focus {outline:none}. This removed the blue outline after the modal was closed. 
 
 
 ## Known Bugs
@@ -374,6 +377,8 @@ By forking the GitHub Repository to make a copy of the original repository, we c
     - Jumbotron & Jumbotron styling
     - Dark overlay which has been applied to jumbotron image and hero images.
     - Social Media Icons in footer and logo row.
+- [Stackoverflow](https://stackoverflow.com/questions/34098307/bootstrap-blue-outline-when-modal-is-closed)
+    - Aided to remove blue outline when the sign up modal is closed. 
 - [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
     - Bootstrap has been used throughout the project to make the site responsive using Bootstraps Grid system and add components from their library.
 - [Fontawesome](https://fontawesome.com/icons?d=gallery)
