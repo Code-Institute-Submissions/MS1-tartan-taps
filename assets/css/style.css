@@ -517,7 +517,7 @@ footer {
     list-style: none;
 }
 
-.modal:focus {
+#signUpModal:focus {
     outline:0;
 }
 
