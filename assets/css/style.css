@@ -517,6 +517,10 @@ footer {
     list-style: none;
 }
 
+.modal:focus {
+    outline:0;
+}
+
 /*--------Modal Ends---------*/
 
 /*--------Media Queries---------*/

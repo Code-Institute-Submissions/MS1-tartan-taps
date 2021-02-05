@@ -259,7 +259,7 @@ Sauce Labs was used to test the website across different browsers. The following
 - Google chrome - successful
 - Microsoft Edge - successful
 - Mozilla Firefox - successful
-- Safari worked however it would not allow you to choose a date using the datepicker on the Customise Your Crate page - [seen here](documentation/testing/device-testing/safari-error.png).
+- Safari worked however it would not allow you to choose a date using the datepicker on the Customise Your Crate page - [seen here](documentation/testing/device-testing/safari-error.png). I checked this on Safari on Ipad and it worked well. 
 - Internet Explorer 11 was the worst experience and more or less broke the website. Images were stretched, dropdown for the FAQ's were broken, text was off-centre, and the jumbotron text was completely out of alignment - [seen here](documentation/testing/device-testing/ie11-error.png)
 
 
