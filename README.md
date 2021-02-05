@@ -307,7 +307,7 @@ These simulated tests only show the home page logo, navbar, and jumbotron as thi
 - After deploying the project and viewing on ipad / iphone, when I opened and closed the sign-up modals a blue outline appeared, which would show until the page was refreshed. 
     - Error: This appears to have come from bootstrap styling. 
     - Fix: I found the solution on stack overflow to change the :focus {outline:none}. This removed the blue outline after the modal was closed. 
- After deploying the project and viewing on ipad / iphone, the jumbotron hero image was not scaling correctly and was zoomed in too far on IOS devices.  
+- After deploying the project and viewing on ipad / iphone, the jumbotron hero image was not scaling correctly and was zoomed in too far on IOS devices.  
     - Fix: I found the solution on stack overflow to change the background-attachment to scroll. Jumbotron hero image is now scaling correctly on all devices. 
 
 
