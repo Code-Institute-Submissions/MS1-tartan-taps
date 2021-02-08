@@ -314,7 +314,7 @@ These simulated tests only show the home page logo, navbar, and jumbotron as thi
 
 ## Known Bugs
 - There is a tiny gap between the sticky-top navbar and the top of the screen when scrolling. This is most evident when using an iphone, showing the device frame, on chrome developer tools. 
-    - There is no margin showing on google development tools, so I'm not sure why this is appearing. 
+    - There is no margin showing on google development tools, so I'm not sure why this is appearing. I have manually cheked the website on Iphone 8 and Ipad and the gap does not appear.
 
 
 ## Lighthouse
