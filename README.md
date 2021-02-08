@@ -376,6 +376,8 @@ By forking the GitHub Repository to make a copy of the original repository, we c
     - Provided the code to create a content overlay for the beer images. 
 - [W3Schools](https://www.w3schools.com/css/css3_gradients.asp) 
     - Provided the code for a gradient background on the "how-it-works" section.
+- [W3Schools](https://www.w3schools.com/tags/tag_summary.asp)
+    - Provided the code for the FAQ's questions and dropdown answers on contact us page.
 - [CSS Tricks](https://css-tricks.com/perfect-full-page-background-image/)
     - Aided with background images for beers, breweries, and contact us pages.
 - [Matt Rudge, Code Institute](https://codeinstitute.net/)
